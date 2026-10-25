@@ -1,0 +1,209 @@
+
+:root {
+    --main-en-font-family:Poppins;
+    --main-font-weight:400;
+    --font-line-height:120% ;
+    --main-ar-font-family:Noto Kufi Arabic;
+ 
+}
+/* Fonts */
+.en-font {
+  font-family: var(--main-en-font-family);
+  font-weight: var(--main-font-weight);
+  line-height: var(--font-line-height);
+}
+.ar-font {
+  font-family: var(--main-ar-font-family);
+  font-weight: var(--main-font-weight);
+  line-height: var(--font-line-height);
+}
+.en-display-1-main{
+    font-size: 93px;
+}
+
+.en-display-2-main{
+    font-size: 75px;
+}
+
+.en-display-3-main{
+    font-size: 60px;
+}
+.en-h1-main{
+    font-size: 48px;
+}
+
+.en-h2-main{
+    font-size: 38px;
+}
+
+.en-h3-main{
+    font-size: 31px;
+}
+
+.en-h4-main{
+    font-size: 24px;
+}
+
+.en-h5-main{
+    font-size: 20px;
+}
+
+.en-main-pargraph{
+    font-size: 16px;
+}
+.ar-display-1{
+    font-size: 93px ;
+}
+.ar-display-2{
+    font-size: 75px ;
+}
+.ar-display-3{
+    font-size: 60px ;
+}
+.ar-h1{
+    font-size: 48px ;
+}
+.ar-h2{
+    font-size: 38px ;
+}
+.ar-h3{
+    font-size: 31px ;
+}
+.ar-h4{
+    font-size: 24px ;
+}
+.ar-h5{
+    font-size: 20px ;
+}
+.ar-pargraph{
+    font-size: 20px ;
+}
+/*//////// Fonts //////////*/
+/* colors ///////////// */
+/* primary */
+.primary-1{
+color:#F0F8FC;
+}
+.primary-2{
+color:#E1F0F8;
+}
+.primary-3{
+color:#D2E9F5;
+}
+.primary-4{
+color:#C3E1F1
+}
+.primary-5{
+color:#B4DAEE
+}
+.primary-6{
+color:#95BDD2
+}
+.primary-7{
+color:#75A0B7
+}
+.primary-8{
+color:#56839B
+}
+.primary-9{
+color:#366680
+}
+.primary-10{
+color:#174964
+}
+/* secondary */
+.secondary-1{
+    color: #F4DAE5;
+}
+.secondary-2{
+    color: #E9B5CA
+}
+.secondary-3{
+    color: #DF91B0
+}
+.secondary-4{
+    color: #D46C95;
+}
+.secondary-5{
+    color: #C9477B;
+}
+.secondary-6{
+    color: #A13962;
+}
+.secondary-7{
+    color: #792B4A;
+}
+.secondary-8{
+    color: #501C31;
+}
+.secondary-9{
+    color: #280E19;
+}
+.secondary-10{
+    color: #000000;
+}
+/* Secondary-Yellow */
+.secondary-yeollow-1{
+    color:#F7F1E6 ;
+}
+.secondary-yeollow-2{
+    color:#F0E4CE;
+}
+.secondary-yeollow-3{
+    color:#E8D6B5;
+}
+.secondary-yeollow-4{
+    color: #E1C99D ;
+}
+.secondary-yeollow-5{
+    color: #D9BB84;
+}
+.secondary-yeollow-6{
+    color: #B69C6C;
+}
+.secondary-yeollow-7{
+    color:#937D54 ;
+}
+.secondary-yeollow-8{
+    color: #6F5D3D;
+}
+.secondary-yeollow-9{
+    color: #4C3E25;
+}
+.secondary-yeollow-10{
+    color: #291F0D;
+}
+/*//////////////// colors // ////////////////*/
+/* Font's Color */
+.light-text-gray-1{
+    color: #A2A1A1;
+}
+.light-text-gray-2{
+    color: #8F8F8F;
+}
+.dark-text-gray-1{
+    color: #CECECE;
+}
+.dark-text-gray-2{
+    color:#B7B7B7;
+}
+/* Dark Background */
+.dark-background-1{
+    background-color: #1E1F38;
+}
+.dark-background-2{
+    background-color: #232440;
+}
+.dark-background-3{
+    background-color: #2C2D4F;
+}
+/* Light Background */
+.light-background-1{
+    background-color: #FFFFFF;
+}
+.light-background-2{
+    background-color: #FCFCFC;
+}
+.light-background-3{
+    background-color: #F4F4F4;
+}
