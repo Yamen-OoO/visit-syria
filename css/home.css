@@ -118,6 +118,108 @@
     max-width: 100%;
     height: auto;
 }
+/* ========== Statistics Section ========== */
+
+.statsSection {
+    position: relative;
+    min-height: 490px;
+    padding: 5rem 2rem;
+    background: #fff;
+    overflow: hidden;
+}
+
+/* Decorative corners */
+
+.statsDecoration {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+
+    background-image: url("../images/others/background_03.png");
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+   
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Top right decoration */
+
+.statsDecorationTop {
+    top: 0;
+    left: 0;
+    
+}
+
+/* Bottom left decoration */
+
+.statsDecorationBottom {
+    bottom: 0;
+    right: 0;
+    background-position: 100% 100%;
+}
+
+.statsContainer {
+    position: relative;
+    z-index: 1;
+    width: min(100%, 1160px);
+    margin-inline: auto;
+}
+.statsDescription {
+    max-width: 1050px;
+    margin-inline: auto;
+    margin-bottom: 2.5rem;
+
+    text-align: center;
+    font-family: var(--main-ar-font-family);
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    line-height: 1.8;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.statCard {
+    min-height: 218px;
+    padding: 1.5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 8%);
+
+    text-align: center;
+}
+    
+.iconPlaceholder {
+    
+    width: 75px;
+    height: 75px;
+    margin-bottom: 1rem;
+}
+
+.statNumber {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    color: #000;
+}
+
+.statLabel {
+    margin: 0;
+    font-family: var(--main-ar-font-family);
+    font-size: 1.2rem;
+    color: #999;
+}
 
 
 
@@ -159,6 +261,15 @@
 
     .herorow {
         min-height: auto;
+    }
+
+     .statsGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    .statsSection {
+        padding: 4rem 1.5rem;
     }
 }
 
@@ -206,5 +317,21 @@
         width: 55%;
         top: 5%;
         left: 0;
+    }
+     .statsSection {
+        padding: 3rem 1rem;
+    }
+
+    .statsDescription {
+        margin-bottom: 2rem;
+    }
+
+    .statsGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .statCard {
+        min-height: 180px;
     }
 }
