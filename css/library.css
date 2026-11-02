@@ -4,7 +4,6 @@
     --main-font-weight:400;
     --font-line-height:120% ;
     --main-ar-font-family:Noto Kufi Arabic;
- 
 }
 /* Fonts */
 .en-font {
@@ -64,6 +63,7 @@
     font-size: 48px ;
 }
 .ar-h2{
+     font-weight: 700;
     font-size: 38px ;
 }
 .ar-h3{
@@ -76,7 +76,7 @@
     font-size: 20px ;
 }
 .ar-pargraph{
-    font-size: 20px ;
+    font-size: 16px ;
 }
 /*//////// Fonts //////////*/
 /* colors ///////////// */

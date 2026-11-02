@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-en-font-family:Poppins;
+    --main-font-weight:400;
+    --font-line-height:120% ;
+    --main-ar-font-family:Noto Kufi Arabic;
+    --btn-services: #6FD6F8;
+    --btn-guide: #8DB7CF;
+}
+.en-font {
+    font-family: var(--main-en-font-family);
+    font-weight: var(--main-font-weight);
+    line-height: var(--font-line-height);
+}
+
+.ar-font {
+    font-family: var(--main-ar-font-family);
+    font-weight: var(--main-font-weight);
+    line-height: var(--font-line-height);
+}
+.sectionHome{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #58BDF2 0% , #FFFFFF 60%);
+    position: relative;
+    overflow: hidden;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+}
+.herorow{
+    min-height: 100vh;
+}
+.heroContent{
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    width: min(544px, 45%);
+    height: auto;
+}
+.welcomeText{
+    font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
+    font-weight:var( --main-font-weight);
+    line-height: 120%;
+    margin-bottom: .95rem;
+}
+.herotitle{
+    font-family: var(--main-ar-font-family);
+    font-weight: 700;
+    line-height: 120%;
+     display: block;
+     font-size: clamp(2rem, 4.4vw, 3rem);
+     
+
+}
+.heroDes{
+     max-width: 24rem;
+    font-size: 16px;
+    font-family: var(--main-ar-font-family);
+    margin-block: 1.5rem 2rem;
+}
+/* ==========btnHero====== */
+.btnHero {
+    font-family: var(--main-ar-font-family);
+    min-width: 11rem;
+    padding: .9rem 1.5rem;
+    border: 0;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: transform .2s ease, filter .2s ease;
+    text-decoration: none;
+    text-align: center;
+}
+.btnServices { background-color: var(--btn-services); }
+.btnGuide    { background-color: var(--btn-guide); }
+.btnHero:hover,
+.btnHero:focus-visible {
+    color: #fff;
+    filter: brightness(.92);
+    transform: translateY(-2px);
+    outline: 3px solid var(--text-dark);
+    outline-offset: 3px;
+}
+
+/* images hero */
+.flip-x {
+    transform: scaleX(-1);
+}
+.imgHome {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: min(766px, 55vw);
+    height: auto;
+}
+.imgHome img{
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity .6s ease;
+     z-index: 2;
+    
+}
+.imgBirds {
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    width: min(42vw, 640px);
+    
+    pointer-events: none;
+}
+.imgBirds img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* responsive */
+@media (max-width: 991.98px) {
+    .heroContent {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        height: auto;
+        padding: 3rem 1.5rem 1rem;
+        text-align: center;
+    }
+
+    .heroDes {
+        max-width: 35rem;
+        margin-inline: auto;
+        margin-block: 1.5rem;
+    }
+
+    .heroActions {
+        justify-content: center;
+    }
+
+    .imgHome {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        width: min(80%, 600px);
+        margin-inline: auto;
+    }
+
+    .imgBirds {
+        width: 40%;
+        top: 5%;
+        left: 5%;
+    }
+
+    .herorow {
+        min-height: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .sectionHome {
+        min-height: 100svh;
+    }
+
+    .heroContent {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .welcomeText {
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+    }
+
+    .herotitle {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .heroDes {
+        font-size: 0.9rem;
+        line-height: 1.8;
+    }
+
+    .heroActions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem !important;
+    }
+
+    .btnHero {
+        width: 100%;
+        min-width: 0;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+
+    .imgHome {
+        width: 100%;
+    }
+
+    .imgBirds {
+        width: 55%;
+        top: 5%;
+        left: 0;
+    }
+}
