@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Patung";
+    src: url("./Patung.ttf") format("truetype");
+}
+
+/* navbar */
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 25px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.navbar .container-fluid {
+    font-family: var(--main-ar-font-family);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+/* navbar */
+
+/* navbar-brand & logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 3px;
+}
+
+.navbar-brand-name {
+    font-family: "Patung", sans-serif;
+    font-size: 37px;
+}
+
+.navbar-logo {
+    width: 58px;
+    height: 58px;
+}
+/* navbar-brand & logo */
+
+/* navbar-links */
+.nav-link {
+    white-space: nowrap;
+}
+/* navbar-links */
+
+/* navbar-language-buttons */
+.navbar-language {
+    margin-left: 25px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+/* navbar-language-buttons */
+
+/* navbar-theme-buttons */
+.theme-btn img {
+    width: 37px;
+    height: 44px;
+  
+}
+
+.theme-btn:last-child {
+    filter: brightness(0) saturate(100%) invert(66%);
+}
+/* navbar-theme-buttons */
+
+.navbar-settings {
+    display: flex;
+    align-items: center;
+}
+
+/* navbar-mediaQuery */
+.btn-close {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-settings {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .navbar-nav {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: fit-content;
+        height: calc(100dvh - 84px);
+        min-width: 200px;
+        background-color: rgb(176, 176, 176);
+        z-index: 1050;
+    }
+    .btn-close {
+        display: flex;
+        justify-self: flex-end;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+/* navbar-mediaQuery */
+
+/* navbar-clock */
+#timezone {
+   position: absolute;
+   top: 100%;
+   left: 15%;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #B4DAEE;
+    padding: 15px;
+    z-index: 1000;
+}
+/* navbar-clock */

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Patung";
+    src: url("./Patung.ttf") format("truetype");
+}
+
+footer {
+    font-family: var(--main-ar-font-family);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none !important;
+}
+
+hr {
+    height: 1px;
+    background: #95BDD2;
+}
+
+/* footer-brand & logo */
+.footer-logo {
+    width: 93px;
+    height: 93px;
+}
+
+span {
+    font-size: 37px;
+    font-family: "Patung", sans-serif;
+}
+/* footer-brand & logo */
+
+/* footer-soical-media-links */
+.social-logos {
+    display: flex;
+    gap: 11px;
+}
+
+.social-icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+/* footer-soical-media-links */
+
+
+/* footer-copyright-section */
+.copyright {
+    background-color: #95BDD2;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+}
+
+.copyright p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.spotcode-logo {
+    width: 51px;
+    height: 50px;
+}
+/* footer-copyright-section */
+
+@media (max-width: 768px) {
+    .copyright {
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .spotcode-logo {
+    width: 30px;
+    height: 29px;
+}
+}
