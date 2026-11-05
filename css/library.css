@@ -4,10 +4,6 @@
     --font-line-height: 120%;
     --main-ar-font-family: Noto Kufi Arabic;
 
-    --main-en-font-family: Poppins;
-    --main-font-weight: 400;
-    --font-line-height: 120%;
-    --main-ar-font-family: Noto Kufi Arabic;
 }
 
 /* Fonts */
@@ -74,10 +70,6 @@
 .ar-h1 {
     font-size: 48px;
 }
-
-.ar-h2 {
-    font-size: 38px;
-
     .ar-h2 {
         font-weight: 700;
         font-size: 38px;
@@ -95,7 +87,7 @@
         font-size: 20px;
     }
 
-    .ar-pargraph {
+    .ar-paragraph {
         font-size: 16px;
     }
 
