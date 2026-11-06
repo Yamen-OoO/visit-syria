@@ -138,13 +138,12 @@ footer {
     display: flex;
     justify-self: center;
     gap: 9px;
-    flex-wrap: wrap;
 }
 
 
 .landmarks img {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
 }
 /* landmarks-section */
 
