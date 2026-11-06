@@ -326,15 +326,17 @@
 .whoTitle {
     position: relative;
     width: fit-content;
-    margin: 1.5rem auto;
+    margin:  auto;
+    margin-bottom: 1.5em;
     text-align: center;
     line-height: 1;
+    
 }
 .whoTitle .whous {
     position: relative;
     z-index: 2;
     display: block;
-    margin-bottom: -.2em;
+    /* margin-bottom: -.2em; */
     
     font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
     font-weight: var(--main-font-weight, 400);
@@ -489,6 +491,7 @@
     display: flex;
      align-items: center;
     gap: 24px;
+    background-color: #FCFCFC;
 
 }
 .whousOptions2{
@@ -531,11 +534,16 @@
     line-height: 1.5;
 }
 
- 
 @media (max-width: 575.98px) {
     .whousRectangle {
         padding: 1.25rem;
     }
+    .whousoptions-image{
+    flex-direction: column;
+}
+ .whoimage3{
+    width: 180px;
+ }
 }
 /* ========= whyUs ========= */
 .whyussection {
@@ -675,13 +683,16 @@
     overflow: hidden;
     background-color: var(--bg-fill);
 }
-.mapsection-stage {
+
+    .mapsection-stage {
     position: relative;
     width: min(100%, calc(100vh  * var(--stage-w) / var(--stage-h)));
     width: min(100%, calc(100svh * var(--stage-w) / var(--stage-h)));
     aspect-ratio: var(--stage-w) / var(--stage-h);
     background: url("../images/others/background01.png") center / cover no-repeat;
 }
+
+ 
 .mapsection-inner {
 
     --map-cx: 53.3%;
@@ -692,13 +703,15 @@
     top: var(--map-y);
     width: var(--panel-w);
     transform: translate(calc(-1 * var(--map-cx)), calc(-1 * var(--map-cy)));
-    container-type: inline-size;     
+    container-type: inline-size;  
+   
 }
 .mapsection-panel {
     position: relative;
     width: 100%;
     aspect-ratio: 1000 / 662;
     border-radius: 12px;
+   
 }
 
 .mapsection .mapTitle {
@@ -719,6 +732,48 @@
     aspect-ratio: 780 / 694;
     container-type: inline-size;       
 }
+.country {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 700;
+    font-size: clamp(9px, 4.2cqw, 20px);       /* نسبة من عرض الخريطة */
+    letter-spacing: .02em;
+    white-space: nowrap;
+    color: rgba(27, 79, 122, .35);
+}
+.country-turkey{
+    display: none;
+    position: absolute;
+    color: #75A0B7 ;
+    font-weight: 900;
+    font-size: 16px;
+    left: 30%;
+    top: 8%;
+}
+.country-iraq    {
+     position: absolute; 
+     display: none;   
+      color: #75A0B7 ;
+    font-weight: 900;
+    font-size: 16px; 
+    right:18% ;
+    top: 38%;
+}   /* شرق الخريطة */
+.country-jordan  { position: absolute; display: none;    color: #75A0B7 ;
+    font-weight: 900;
+    font-size: 16px;
+     right:58% ;
+    top: 64%;
+ }   /* جنوب الخريطة */
+.country-lebanon { position: absolute; display: none;   color: #75A0B7 ;
+    font-weight: 900;
+    font-size: 16px; 
+        left:3% ;
+    top: 44%; }   /* غرب الخريطة بين طرطوس ودمشق */
 .gov {
   position: absolute;
   display: block;
@@ -917,19 +972,60 @@
     }
 }
 @media (max-aspect-ratio: 1/1), (max-width: 767.98px) {
-    
-    .mapsection {
+      .mapsection {
+        --bg-fill: #C3E1F1;                    /* لون الخلفية بدل الصورة */
+    }
+    /* .mapsection {
         --stage-w: 4;                 
         --stage-h: 3;                 
+    } */
+    .mapsection-stage {
+        width: 100%;
+        aspect-ratio: auto;
+        padding: 1.25rem .5rem 1.5rem;
+        background: none;                      /* بلا صورة خلفية */
     }
-
+     .mapsection-inner {                        /* يعود إلى التدفق العادي بدل التموضع المطلق */
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        transform: none;
+    }
     .mapsection .mapTitle {
         max-width: 60%;
     }
-    .mapsection-inner{
-         left:50%;
-    top: -10%;
+   
+      .mapsection-panel {                        /* الخريطة في الأعلى والصور الثلاث في صف تحتها */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5rem;
+        aspect-ratio: auto;
+        padding-top: 3rem;                     /* مساحة العنوان */
     }
+      .mapsection-map {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 86%;                            /* ← كبّره أو صغّره؛ يبقى هامش على الجانبين لأسماء الدول */
+        margin: 0 auto 1.5rem;                 /* الهامش السفلي لاسم Jordan */
+        grid-column: 1 / -1;
+    }
+      .mapsection-panel .photo-map {             /* مقطعان في المحدّد حتى يغلب .photo-map-1/2/3 */
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+ 
+    .country {
+        display: block;
+    }
+    .country-turkey{
+    display: block;
+}
+.country-iraq    { display: block;  }   
+.country-jordan  { display: block;   }   
+.country-lebanon { display: block;    }  
 }
 .photo-map{
      width:20.7%;
