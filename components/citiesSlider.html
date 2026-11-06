@@ -11,22 +11,30 @@
       rel="stylesheet"
     />
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css"
     />
+    <!-- Swiper CSS -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/citiesSlider.css" />
     <link rel="stylesheet" href="../css/library.css" />
+    <!-- CSS -->
   </head>
   <body>
+    
     <div class="slide-container swiper">
       <div class="slide-content">
         <h1 class="ar-h1 secondary-5">المحافظات السورية</h1>
         <div class="card-wrapper swiper-wrapper">
-          <div class="card swiper-slide">
+          
+          <!-- swiper-slide -->
+          <div class="card swiper-slide" data-bs-toggle="dialog" data-bs-target="#halab">
             <div class="image-content">
               <span class="overlay"></span>
               <div class="card-image">
@@ -40,7 +48,6 @@
 
             <div class="card-content">
               <div class="card-content-floral">
-               
                 <img
                   class="floral-1"
                   src="../images/icons/Elegant Blue Floral Corner Frame 1.png"
@@ -53,7 +60,7 @@
                 />
               </div>
               <h3 class="ar-h3 secondary-5 name">حلب</h3>
-              <p class="ar-pargraph description">
+              <p dir="rtl" class="ar-pargraph description">
                 أقدم مدينة مأهولة في العالم، وفيها الجامع الأموي وقلعة دمشق.
               </p>
               <div class="card-details-1">
@@ -67,7 +74,10 @@
               </div>
             </div>
           </div>
-         <div class="card swiper-slide">
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
+         <div class="card swiper-slide" data-bs-toggle="modal" data-bs-target="#damascus">
             <div class="image-content">
               <span class="overlay"></span>
               <div class="card-image">
@@ -94,7 +104,7 @@
                 />
               </div>
               <h3 class="ar-h3 secondary-5 name">دمشق</h3>
-              <p class="ar-pargraph description">
+              <p dir="rtl" class="ar-pargraph description">
                 أقدم مدينة مأهولة في العالم، وفيها الجامع الأموي وقلعة دمشق.
               </p>
               <div class="card-details-1">
@@ -108,6 +118,9 @@
               </div>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -135,7 +148,7 @@
                 />
               </div>
               <h3 class="ar-h3 secondary-5 name">حمص</h3>
-              <p class="ar-pargraph description">
+              <p dir="rtl" class="ar-pargraph description">
                 أقدم مدينة مأهولة في العالم، وفيها الجامع الأموي وقلعة دمشق.
               </p>
               <div class="card-details-1">
@@ -149,6 +162,9 @@
               </div>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -173,6 +189,9 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -197,6 +216,9 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -221,6 +243,9 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -245,6 +270,9 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -269,6 +297,9 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
+          <!-- swiper-slide -->
           <div class="card swiper-slide">
             <div class="image-content">
               <span class="overlay"></span>
@@ -293,13 +324,52 @@
               <button class="button">View More</button>
             </div>
           </div>
+          <!-- swiper-slide -->
+
         </div>
       </div>
 
+      <!-- swiper-button-next & prev -->
       <div class="swiper-button-next swiper-navBtn"></div>
       <div class="swiper-button-prev swiper-navBtn"></div>
       <div class="swiper-pagination"></div>
+      <!-- swiper-button-next & prev -->
+       
     </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="damascus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body-images">
+          <img class="modal-image-1" src="../images/governorates/Damascus/Restaurants/Restaurants_02.jpg" alt="">
+          <img class="modal-image-2" src="../images/governorates/Damascus/Damascus_04.jpg" alt="">
+          <img class="modal-image-3" src="../images/governorates/Damascus/NightClub/nightClub_02.jpg" alt="">
+          <div class="modal-body-florals">
+            <img class="modal-body-floral-1" src="../images/others/background_01.png" alt="">
+            <img class="modal-body-floral-2" src="../images/others/background_01.png" alt="">
+            <img class="modal-body-floral-3" src="../images/others/background_01.png" alt="">
+            <img class="modal-body-floral-4" src="../images/others/background_01.png" alt="">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-footer-florals">
+            <img class="modal-footer-floral-1" src="../images/icons/Elegant Blue Floral Corner Frame 1.png" alt="">
+            <img class="modal-footer-floral-2" src="../images/icons/Elegant Blue Floral Corner Frame 2.png" alt="">
+          </div>
+          <h3 class="ar-h3 secondary-5">دمشق</h3>
+          <button class="ar-h5">فتح الدليل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
   </body>
 
   <!-- Swiper JS -->
@@ -309,4 +379,9 @@
   <!--Uncomment this line-->
   <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
   <script src="../js/citiesSlider.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </html>
+
+    

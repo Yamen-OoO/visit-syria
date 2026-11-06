@@ -14,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--main-ar-font-family);
 }
 
 h1 {
@@ -28,39 +29,51 @@ h1 {
   }
 }
 
+/* slide-layout */
 .slide-container {
-  font-family: var(--main-ar-font-family);
   max-width: 1100px;
   width: 100%;
   padding: 40px 0;
 }
 .slide-content {
-  height: 549px;
+  height: 650px;
   margin: 0 40px;
   overflow: hidden;
 }
+/* slide-layout */
 
+/* slide-florals */
 .card-content-floral {
+  max-width: 100%;
+}
+
+.card-content-floral img {
   position: absolute;
 }
 
 .floral-1 {
-  transform: translateX(-80%);
+  left: 0;
 }
 
 .floral-2 {
-  transform: translateX(80%);
+  right: 0;
 }
+/* slide-florals */
 
-.image-content,
+/* slide-content */
 .card-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .card {
+  position: relative;
+  overflow: hidden;
     width: 100%;
+    cursor: pointer;
+    border: none;
 }
 
 .card-image .card-img {
@@ -75,9 +88,10 @@ h1 {
 }
 .description {
   width: 100%;
-  max-width: 305px;
+  max-width: 250px;
   color: #8f8f8f;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .card-details-1 {
@@ -92,7 +106,9 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
 }
+/* slide-content */
 
+/* swiper-buttons */
 .swiper-navBtn {
   color: #6e93f7;
   transition: color 0.3s ease;
@@ -112,6 +128,8 @@ h1 {
   padding: 35px;
   left: 0;
 }
+/* swiper-buttons */
+
 .swiper-pagination-bullet {
   background-color: #6e93f7;
   opacity: 1;
@@ -124,7 +142,183 @@ h1 {
   .slide-content {
     margin: 0 20px;
   }
-  .swiper-navBtn {
-    display: none;
+}
+
+/* modal */
+.modal-dialog {
+  max-width: 802px;
+  width: calc(100% - 30px);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.btn-close {
+  font-size: 25px;
+}
+
+/* modal-layout */
+.modal-content {
+  position: relative;
+  width: 100%;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body {
+   flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+/* modal-layout */
+
+/* modal-images */
+.modal-body-images {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+
+  width: min(100%, 630px);
+  height: auto;
+  aspect-ratio: 627 / 340;
+  max-height: 340px;
+  flex-shrink: 0;
+
+}
+
+.modal-image-1 {
+ 
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1000;
+}
+
+.modal-image-2 {
+  
+  grid-column: 2;
+  grid-row: 1/3;
+  z-index: 1000;
+}
+
+.modal-image-3 {
+ 
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1000;
+}
+
+.modal-image-3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.modal-image-1,
+.modal-image-2,
+.modal-image-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* modal-images */
+
+/* modal-body-florals */
+.modal-body-florals img {
+  position: absolute;
+  width: 20%;
+  height: clamp(100px, 20vw, 150px);
+  top: 75%;
+  opacity: 0.1;
+}
+
+.modal-body-floral-1 {
+  left: -2%;
+}
+
+.modal-body-floral-2 {
+  left: 26%;
+}
+
+.modal-body-floral-3 {
+  right: -2%;
+}
+
+.modal-body-floral-4 {
+  right: 26%;
+}
+/* modal-body-florals */
+
+/* modal-footer-layout */
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 1000;
+  border-top: none;
+  transform: translateY(-30%);
+}
+/* modal-footer-layout */
+
+.modal-footer-florals {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer-florals img {
+  position: absolute;
+  bottom: 12%;
+}
+
+.modal-footer-floral-1 {
+  right: 100%;
+}
+
+.modal-footer-floral-2 {
+  left: 100%;
+}
+
+/* view-guide-button */
+button {
+  width: 133px;
+  height: 51px;
+  border: none;
+  color: white;
+  background-color: #6FE5FF;
+}
+/* view-guide-button */
+
+/* modal-mediaQuery */
+@media (max-width: 576px) {
+  .modal-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-body-florals img {
+    top: 80%;
   }
 }
+
+@media (max-width: 376px) {
+  .modal-footer-floral-1 {
+  right: 85%;
+  top: 30%;
+  width: 80px;
+  height: 80px;
+}
+
+.modal-footer-floral-2 {
+  left: 85%;
+  top: 30%;
+  width: 80px;
+  height: 80px;
+}
+}
+/* modal-mediaQuery */
