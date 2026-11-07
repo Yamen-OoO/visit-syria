@@ -26,6 +26,7 @@
 
 .navbar-collapse {
     flex-grow: 0;
+    z-index: -1;
 }
 /* navbar */
 
@@ -69,7 +70,6 @@ button {
 .theme-btn img {
     width: 37px;
     height: 44px;
-  
 }
 
 .theme-btn:last-child {
@@ -107,7 +107,6 @@ button {
         width: fit-content;
         height: calc(100dvh - 84px);
         min-width: 200px;
-        background-color: rgb(176, 176, 176);
         z-index: 1050;
     }
     .btn-close {
@@ -115,6 +114,12 @@ button {
         justify-self: flex-end;
         margin-top: 10px;
         margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        background-color: white !important;
     }
 }
 /* navbar-mediaQuery */
