@@ -29,7 +29,8 @@
     z-index: 0;
 }
 
-.letsgo-text {
+.letsgo-text,
+.contactForm-text {
     font-family: 'pHallsKhodkar', sans-serif;
     font-size: 40px;
     line-height: 120%;
@@ -192,6 +193,7 @@
 .mobile-main {
     width: 338px;
     height: 507px;
+    margin-inline-start: 20px;
     margin-top: -186px;
     z-index: 5;
 }
@@ -199,7 +201,7 @@
 .mobile-secondary {
     width: 256px;
     height: 384px;
-    margin-inline-start: -90px;
+    margin-inline-start: -135px;
     margin-top: -62px;
     z-index: 4;
 }
@@ -224,7 +226,7 @@
 }
 
 .ticker-item {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: Noto Kufi Arabic;
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0 30px;
@@ -255,7 +257,7 @@
 /* --------------------------------سلايدر الصور----------------------------------- */
 
 .image-slider-section {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     background-color: #ffffff;
     overflow-x: auto;
     overflow-y: hidden;
@@ -305,7 +307,13 @@
     background-color: #95BDD2;
 }
 
+.visitSyria-text {
+    font-family: 'Patung';
+    font-size: 37px;
+}
+
 .socialMedia-icon {
+    margin: 0 5px;
     width: 40px;
     height: 40px;
     border: 3px solid #000;
@@ -346,6 +354,34 @@
     width: 40px;
     height: auto;
     object-fit: contain;
+}
+
+
+@media (max-width: 1200px) {
+    .mobile-main {
+        margin-inline-start: -60px;
+        margin-top: -186px;
+    }
+
+    .mobile-secondary {
+        margin-inline-start: -135px;
+        margin-top: -62px;
+    }
+
+    .product-section::before {
+        background-position-x: +650px, -300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logoColored {
+        display: none;
+    }
+
+    .mobile-main,
+    .mobile-secondary {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
