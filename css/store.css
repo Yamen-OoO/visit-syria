@@ -1,9 +1,26 @@
 @import url('library.css');
 
+@font-face {
+    font-family: 'pHallsKhodkar';
+    src: url('pHalls\ Khodkar\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Patung';
+    src: url('Patung.ttf') format('truetype');
+}
+
 .main-section {
     background-image: linear-gradient(to bottom, #58BDF2 0%, #ffffff 50%);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.welcom-store-text {
+    font-family: 'pHallsKhodkar', sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 20px;
 }
 
 .logoColored {
@@ -23,7 +40,7 @@
 .handbag02 {
     width: 136px;
     height: 204px;
-    margin-inline-start: -70px;
+    margin-inline-start: -60px;
     margin-top: 140px;
     z-index: 3;
 }
@@ -37,29 +54,42 @@
 }
 
 .sweaterImg01 {
-    width: 609px;
-    height: 410px;
+    width: 509px;
+    height: 355px;
     object-fit: cover;
     border: 6px solid;
 }
 
 .sweaterImg02 {
-    width: 517px;
-    height: 450px;
+    width: 567px;
+    height: 512px;
     object-fit: cover;
     border: 6px solid;
     z-index: 1;
 }
 
 .sweaterImg03 {
-    width: 442px;
-    height: 395px;
+    width: 492px;
+    height: 445px;
     margin-inline-start: -60px;
     margin-top: 150px;
     object-fit: cover;
     border: 6px solid;
     z-index: 2;
 }
+
+.market-location {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.market-location:hover {
+    color: #C9477B;
+}
+
 
 .iconLove,
 .iconHappy {
@@ -96,8 +126,8 @@
     background-position: right, left;
     background-repeat: no-repeat;
     background-size: 728px 2161px, 728px 2161px;
-    background-position-x: +900px, -300px;
-    opacity: 0.15;
+    background-position-x: +1100px, -300px;
+    opacity: 0.05;
     z-index: 0;
     pointer-events: none;
 }
@@ -108,11 +138,18 @@
 }
 
 
+.product-text {
+    font-family: 'pHallsKhodkar', sans-serif;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+
 
 .btn-filter {
     border: 1px solid;
     background-color: transparent;
-    padding: 6px 20px;
+    padding: 15px 30px;
     transition: all 0.3s;
 }
 
@@ -137,6 +174,7 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
 
+
 .mobileApp-section {
     height: 320px;
     margin-top: -150px;
@@ -150,6 +188,7 @@
 .mobile-main {
     width: 338px;
     height: 507px;
+    margin-inline-start: 20px;
     margin-top: -186px;
     z-index: 5;
 }
@@ -157,7 +196,7 @@
 .mobile-secondary {
     width: 256px;
     height: 384px;
-    margin-inline-start: -90px;
+    margin-inline-start: -135px;
     margin-top: -62px;
     z-index: 4;
 }
@@ -182,7 +221,7 @@
 }
 
 .ticker-item {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: Noto Kufi Arabic;
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0 30px;
@@ -213,7 +252,7 @@
 /* --------------------------------سلايدر الصور----------------------------------- */
 
 .image-slider-section {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     background-color: #ffffff;
     overflow-x: auto;
     overflow-y: hidden;
@@ -263,7 +302,14 @@
     background-color: #95BDD2;
 }
 
+.visitSyria-text {
+    font-family: 'Patung';
+    font-size: 37px;
+    /* line-height: 120px; */
+}
+
 .socialMedia-icon {
+    margin: 0 5px;
     width: 40px;
     height: 40px;
     border: 3px solid #000;
@@ -306,8 +352,79 @@
     object-fit: contain;
 }
 
+@media (max-width: 1200px) {
+    .mobile-main {
+        margin-inline-start: -60px;
+        margin-top: -186px;
+    }
+
+    .mobile-secondary {
+        margin-inline-start: -135px;
+        margin-top: -62px;
+    }
+
+    .product-section::before {
+        background-position-x: +650px, -300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sweaterImg02 {
+        width: 417px;
+        height: 362px;
+    }
+
+    .sweaterImg03 {
+        width: 342px;
+        height: 295px;
+    }
+
+    .sweaterImg03 {
+        width: 292px;
+        height: 245px;
+    }
+
+    .product-section::before {
+        background-position-x: +500px, -300px;
+    }
+
+    .mobile-main,
+    .mobile-secondary {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .copyright-bar {
         text-align: center;
+    }
+
+    .sweaterImg01 {
+        width: 409px;
+        height: 255px;
+    }
+
+    .sweaterImg02 {
+        width: 367px;
+        height: 312px;
+    }
+
+    .product-section::before {
+        background-image: none;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .sweaterImg02 {
+        width: 267px;
+        height: 212px;
+    }
+
+    .sweaterImg03 {
+        width: 192px;
+        height: 145px;
     }
 }

@@ -1,9 +1,26 @@
 @import url('library.css');
 
+@font-face {
+    font-family: 'pHallsKhodkar';
+    src: url('pHalls\ Khodkar\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Patung';
+    src: url('Patung.ttf') format('truetype');
+}
+
 .main-section {
     background-image: linear-gradient(to bottom, #58BDF2 0%, #ffffff 50%);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.online-text {
+    font-family: 'pHallsKhodkar', sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 20px;
 }
 
 .logoColored {
@@ -12,9 +29,15 @@
     z-index: 0;
 }
 
+.letsgo-text,
+.contactForm-text {
+    font-family: 'pHallsKhodkar', sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+}
 
-.contactOption-section {
-    margin-bottom: 500px;
+.contact-option-section {
+    margin: 100px 0;
 }
 
 .contact-img {
@@ -45,6 +68,116 @@
 
 
 
+/* ------------------------------ contact form --------------------------- */
+
+
+.contact-form-section {
+    margin: 100px 0 500px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-form-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/icons/logo-colored.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 824px 824px;
+    background-position-x: -400px;
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.contact-form-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.form-control {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    color: #6c757d;
+}
+
+.form-control::placeholder {
+    opacity: 1;
+}
+
+.form-control:focus {
+    border-color: #6FE5FF;
+    box-shadow: 0 0 0 0.25rem rgba(103, 232, 249, 0.25);
+}
+
+.btn-programs {
+    background-color: #6FE5FF;
+    color: #ffffff;
+    padding: 0.65rem 1.8rem;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+
+.btn-programs:hover {
+    background-color: #22d3ee;
+    color: #ffffff;
+}
+
+.span-number {
+    z-index: 1;
+}
+
+.span-number-underLine {
+    height: 40%;
+    background-color: #76E6FE;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.than-more {
+    width: 448px;
+    height: 72px;
+    background: linear-gradient(to right, #76E6FE 20%, #C2F4FF 70%);
+    border-radius: 25px 25px 0 0;
+}
+
+.btn-than-more-1 {
+    width: 448px;
+    height: 72px;
+    background: #C2F4FF;
+    border: none;
+    transition: background 0.5s ease;
+}
+
+.btn-than-more-2 {
+    width: 448px;
+    height: 72px;
+    background: #C2F4FF;
+    border: none;
+    border-radius: 0 0 25px 25px;
+    transition: background 0.5s ease;
+
+}
+
+.btn-than-more-1:hover,
+.btn-than-more-2:hover {
+    background: #76E6FE;
+
+}
+
+
+
+
 /* ------------------------- قسم تطبيق الموبايل ----------------------- */
 
 .mobileApp-section {
@@ -60,6 +193,7 @@
 .mobile-main {
     width: 338px;
     height: 507px;
+    margin-inline-start: 20px;
     margin-top: -186px;
     z-index: 5;
 }
@@ -67,7 +201,7 @@
 .mobile-secondary {
     width: 256px;
     height: 384px;
-    margin-inline-start: -90px;
+    margin-inline-start: -135px;
     margin-top: -62px;
     z-index: 4;
 }
@@ -92,7 +226,7 @@
 }
 
 .ticker-item {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: Noto Kufi Arabic;
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0 30px;
@@ -123,7 +257,7 @@
 /* --------------------------------سلايدر الصور----------------------------------- */
 
 .image-slider-section {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     background-color: #ffffff;
     overflow-x: auto;
     overflow-y: hidden;
@@ -173,7 +307,13 @@
     background-color: #95BDD2;
 }
 
+.visitSyria-text {
+    font-family: 'Patung';
+    font-size: 37px;
+}
+
 .socialMedia-icon {
+    margin: 0 5px;
     width: 40px;
     height: 40px;
     border: 3px solid #000;
@@ -214,6 +354,34 @@
     width: 40px;
     height: auto;
     object-fit: contain;
+}
+
+
+@media (max-width: 1200px) {
+    .mobile-main {
+        margin-inline-start: -60px;
+        margin-top: -186px;
+    }
+
+    .mobile-secondary {
+        margin-inline-start: -135px;
+        margin-top: -62px;
+    }
+
+    .product-section::before {
+        background-position-x: +650px, -300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logoColored {
+        display: none;
+    }
+
+    .mobile-main,
+    .mobile-secondary {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {

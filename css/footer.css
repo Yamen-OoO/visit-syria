@@ -41,14 +41,8 @@ footer {
 
 @media (max-width: 768px) {
     .floral-2 {
-        top: 85%;
-    }
-}
-
-@media (max-width: 572px) {
-    .floral-2 {
-        transform: scaleY(1);
         top: 0;
+        transform: scaleY(1);
     }
 }
 /* florals */
