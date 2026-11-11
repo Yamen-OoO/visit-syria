@@ -3,11 +3,6 @@
     --main-font-weight: 400;
     --font-line-height: 120%;
     --main-ar-font-family: Noto Kufi Arabic;
-
-    --main-en-font-family: Poppins;
-    --main-font-weight: 400;
-    --font-line-height: 120%;
-    --main-ar-font-family: Noto Kufi Arabic;
 }
 
 /* Fonts */
@@ -89,9 +84,9 @@
 .ar-pargraph{
     font-size: 16px ;
 }
-/*//////// Fonts //////////*/
-/* colors ///////////// */
-/* primary */
+/*=============== Fonts ===========*/
+/* ============colors =========*/
+/* ==========primary====== */
 .primary-1{
 color:#F0F8FC;
 }
@@ -184,7 +179,7 @@ color:#174964
 .secondary-yeollow-10{
     color: #291F0D;
 }
-/*//////////////// colors // ////////////////*/
+/*========== colors =============*/
 /* Font's Color */
 .light-text-gray-1{
     color: #A2A1A1;
