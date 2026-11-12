@@ -52,9 +52,50 @@
    width: 486px;
     height: 279px;
     z-index: 3; 
-    margin-inline-end: -65%;
+    margin-inline-end: -62%;
     margin-top: 45px;
     /* overflow-x: hidden */
+}
+
+
+.btn-select-governorate{
+    width: 166px;
+    height: 51px;
+    border: none;
+    background-color: #6FE5FF;
+    color: #fff;
+}
+
+.img-landmarks01{
+    width: 311px;
+    height: 302px;
+    object-fit: cover;
+    border: 6px solid #95BDD2;
+}
+
+.img-landmarks02{
+    width: 444px;
+    height: 308px;
+    object-fit: cover;
+    border: 6px solid #95BDD2;
+}
+
+
+.custom-progress {
+    height: 13px; /* ارتفاع نحيف مطابق للصورة */
+    background-color: #D9D9D9; /* اللون الرمادي الوردي الفاتح للخلفية غير المكتملة */
+    border-radius: 0; /* حواف حادة كما في الصورة، أو اجعلها 4px لحواف دائرية خفيفة */
+    overflow: hidden;
+}
+
+/* تخصيص لون الشريط الممتلئ */
+.custom-progress-bar01 {
+    background-color: #C9477B; /* اللون العنابي/الوردي الغامق المطابق للصورة */
+    width: 95%;
+}
+.custom-progress-bar02 {
+    background-color: #C9477B; /* اللون العنابي/الوردي الغامق المطابق للصورة */
+    width: 40%;
 }
 
 
