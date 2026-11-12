@@ -1549,7 +1549,7 @@
 }
 
 .section3-tab.active {
-    background-color : #198754;
+    background-color : var(--s3-blue-dark);
     color: white;
     border-radius: 8px;
 }
