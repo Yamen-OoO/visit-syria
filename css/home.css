@@ -1298,19 +1298,19 @@
 }
 /* ====================================================================خلفية الزخرفة اليمنى ===================================================================== */
 .services-body {
-    --tile-ratio: 1;                          /* انقلت إلى هنا ليراها الجميع */
-     --floral-w: clamp(120px, 13vw, 300px);
-    --floral-gap: clamp(24px, 4vw, 64px);     /* ← مقدار النزول عن الخلفية الأولى (غيّره كما تريد) */
+    --tile-ratio: 1;                          
+     --floral-w: clamp(340px, 13vw, 560px);
+    --floral-gap: clamp(24px, 4vw, 64px);    
     --pattern-h: calc(min(100cqw, 1920px) / (3 * var(--tile-ratio)));
 
     position: relative;
     isolation: isolate;
-    container-type: inline-size;              /* ليعني 100cqw عرض القسم نفسه */
+    container-type: inline-size;          
 }
 .backImgService-2,
 .overlayservice2 {
     position: absolute;
-    top: calc(var(--pattern-h) + var(--floral-gap));   /* بعد الخلفية الأولى + نزول إضافي */
+    top: calc(var(--pattern-h) + var(--floral-gap));  
     left: 0;
     bottom: 0;
     width: var(--floral-w);
@@ -1507,7 +1507,11 @@
     flex-direction: column;
     gap: 1.75rem;                           
 }
-
+.title-service2{
+    font-size: clamp(1.4rem, 3.4vw, 2.5rem);     
+    font-weight: 400;
+    line-height: 1.2;
+}
 
 
 
@@ -1531,21 +1535,27 @@
 }
 
 .section3-tab {
-    padding: .9rem .5rem;
+    padding: .9rem .4rem;
     border: 0;
     border-radius: 12px;
     background: transparent;
     color: #111;
-    font-family: inherit;
-    font-size: clamp(1.1rem, 1.7vw, 1.7rem);  
+    
+    font-size: clamp(.8rem, 1.7vw, 1.1rem);  
     line-height: 1.2;
     cursor: pointer;
     transition: background-color .2s ease;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
+.section3-tab.active {
+    background-color : #198754;
+    color: white;
+    border-radius: 8px;
+}
 .section3-tab[aria-selected="true"] {
     background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
 .section3-tab:focus-visible {
@@ -1733,7 +1743,10 @@
     aspect-ratio: 1;
     background-color: #D46C95;
 }
-
+.service4-road{
+    padding-right: 11px;
+    padding-bottom: 2px;
+}
 .service4-feature h4 {                     
     margin: 0 0 .5rem;
     font-size: 1.25rem;
@@ -1751,6 +1764,13 @@
 @media (max-width: 575.98px) {
     .service4-feature-icon {
         width: 64px;
+    }
+    .service4-feature-icon  img{
+        width: 40px;
+        height: 40px;
+    }
+    .service4-road{
+        padding-left: 4px;
     }
 }
 
@@ -1946,14 +1966,7 @@
     border: 1px solid #111;
     background: #fff;
 }
- /* .testimonial--blue .testimonial-avatar {
-    width: 104px;
-    height: auto;
-    border: 1px solid #111;
-    border-radius: 50%;
-    background: transparent;
-} */
- 
+
 .testimonial-name {
     margin: .6rem 0 0;
     font-family: 'Poppins', sans-serif;
@@ -1975,10 +1988,12 @@
     .testimonials-grid {
         grid-template-columns: 1fr;
         gap: 0;
+
     }
  
     .testimonial {
-        padding-bottom: 170px;
+        padding-bottom: 190px;
+        padding-top: 50px;
     }
 
     .testimonial-card {
