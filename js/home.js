@@ -9,7 +9,6 @@
 
 setInterval(() => {
     currentSlide = (currentSlide + 1) % slides.length;
-
     heroImg.src = slides[currentSlide].src;
     heroImg.alt = slides[currentSlide].alt;
 }, 5000);
