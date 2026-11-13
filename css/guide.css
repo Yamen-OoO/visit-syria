@@ -31,31 +31,11 @@
     margin: 0 auto;
 }
 
-.logoColored {
-    width: 383.9px; 
-    height: 329.18px;
-    z-index: 1;
-    margin-inline-end: -66%; 
-    margin-top: 20px;
-    transform: scale(1.1);
+.horse-sword {
+    width: 406.36px; 
+    height: 389.13px;
 }
 
-.damascene-sword {
-    width: 177px;
-    height: 365px;
-    z-index: 2; 
-    margin-inline-end: -45%; 
-    margin-top: 20px;
-}
-
-.horse-statue {
-   width: 486px;
-    height: 279px;
-    z-index: 3; 
-    margin-inline-end: -62%;
-    margin-top: 45px;
-    /* overflow-x: hidden */
-}
 
 
 .btn-select-governorate{
@@ -77,6 +57,7 @@
     width: 444px;
     height: 308px;
     object-fit: cover;
+    
     border: 6px solid #95BDD2;
 }
 
@@ -99,19 +80,9 @@
 }
 
 
-
-
-@media (max-width: 767.98px) {
-    .logoColored {
-        width: 60%;
-        margin: 15px 0;
-    }
-    .damascene-sword {
-        width: 30%;
-        margin-inline-end: -20%;
-    }
-    .horse-statue {
-        width: 40%;
-        margin-inline-start: -20%;
-    }
+@media (max-width: 1200px) {
+  .img-landmarks01 {
+    max-width: 100%;
+    height: 80%;
+  }
 }
