@@ -9,6 +9,16 @@
     --btn-guide: #8DB7CF;
 }
 
+@font-face {
+    font-family: 'pHallsKhodkar';
+    src: url('pHalls\ Khodkar\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Patung';
+    src: url('Patung.ttf') format('truetype');
+}
+
 .sectionHome{
     min-height: 100vh;
     background: linear-gradient(to bottom, #58BDF2 0% , #FFFFFF 60%);
@@ -31,7 +41,7 @@
     height: auto;
 }
 .welcomeText{
-    font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-weight:var( --main-font-weight);
     line-height: 120%;
     margin-bottom: .95rem;
@@ -337,7 +347,7 @@
     z-index: 2;
     display: block;
     
-    font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-weight: var(--main-font-weight, 400);
     font-size: clamp(2.2rem, 4.2vw, 3.75rem);   
     line-height: 1.2;
@@ -1055,7 +1065,7 @@
 
 .products {
     display: block;
-    font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-weight: var(--main-font-weight, 400);
     font-size: clamp(2.2rem, 4.2vw, 3.75rem);
     line-height: 1.2;
@@ -1128,7 +1138,7 @@
     display: block;
     margin: 0 0 1.5rem;
     text-align: start;
-    font-family: 'Aref Ruqaa', 'Noto Kufi Arabic', serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-weight: var(--main-font-weight, 400);
     font-size: clamp(2.2rem, 4.2vw, 3.75rem);
     line-height: 1.2;
@@ -1848,7 +1858,7 @@
  .testimonials-title {
     margin: 0 0 1rem;
     color: var(--t-pink);
-    font-family: 'Aref Ruqaa', serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-weight: 400;
     font-size: clamp(2.2rem, 4.2vw, 3.75rem);
     line-height: 1.2;
@@ -1969,7 +1979,7 @@
 
 .testimonial-name {
     margin: .6rem 0 0;
-    font-family: 'Poppins', sans-serif;
+     font-family: 'pHallsKhodkar', sans-serif;
     font-size: 1.35rem;
     line-height: 1.2;
     white-space: nowrap;
