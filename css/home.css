@@ -2452,9 +2452,9 @@
 .services::before {
   content: "";
   position: absolute;
-  inset-inline: 0;         
-  top: 140px;               
-  height: 760px;          
+  inset-inline: 0;
+  top: 140px;
+  height: 760px;
   z-index: -1;
   pointer-events: none;
 
@@ -2464,7 +2464,6 @@
   background-size: calc(120vw / 3) auto;
   opacity: 0.1;
 }
-
 
 @media (max-width: 991px) {
   .services::before {
@@ -2498,9 +2497,9 @@
 
   background-image: url("../images/others/background_01.png");
   background-repeat: repeat-x; /* تكرار أفقي فقط */
-  /* background-position: top center;
+/* background-position: top center;
   background-size: calc(120vw / 3) auto; ثلاث زخارف بعرض الشاشة */
-  /* opacity: 0.1; */
+/* opacity: 0.1; */
 /* } */
 
 /* @media (max-width: 991px) {
@@ -2514,7 +2513,7 @@
     background-size: calc(100vw / 1.5) auto;
     opacity: 0.08;
   }
-} */ 
+} */
 
 /* .services-body{
     position: relative;
@@ -2536,8 +2535,6 @@
     z-index: 0;
     pointer-events: none;
 } */
-
-
 
 /* .service-1::after {
     position: absolute;
@@ -2592,7 +2589,7 @@
 } */
 
 .service-1 {
-    padding-block: clamp(38px, 8vw, 110px);
+  padding-block: clamp(38px, 8vw, 110px);
   position: relative;
   overflow: hidden;
   display: grid;
@@ -2722,30 +2719,30 @@
 }
 /* ====================================================================خلفية الزخرفة اليمنى ===================================================================== */
 
-.bachground-Row-234{
-     position: relative;
-    isolation: isolate;
+.bachground-Row-234 {
+  position: relative;
+  isolation: isolate;
 }
-.bachground-Row-234::before{
-    content: "";
-    position: absolute;
-     top: -5%;
+.bachground-Row-234::before {
+  content: "";
+  position: absolute;
+  top: -5%;
   bottom: 0;
-   left: 50%;
-   pointer-events: none;
+  left: 50%;
+  pointer-events: none;
   margin-left: calc(-50vw - 18vw);
   width: clamp(360px, 52vw, 1160px);
-     background-image: url("../images/others/background_02.png") ;
-     background-repeat: no-repeat;             
-    background-position: left top;
-     background-size: 100% 100%; 
-    opacity: .09;   
+  background-image: url("../images/others/background_02.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
+  opacity: 0.09;
 }
 @media (max-width: 991px) {
   .bachground-Row-234::before {
     width: 70vw;
     margin-left: calc(-50vw - 20vw);
-     opacity: 0.07;
+    opacity: 0.07;
   }
 }
 @media (max-width: 767.98px) {
@@ -2753,12 +2750,8 @@
     width: 80vw;
     margin-left: calc(-50vw - 30vw);
     opacity: 0;
-
   }
 }
-
-
-
 
 /* ========= service-Row2  ========= */
 
@@ -2920,11 +2913,9 @@
   --s3-blue-dark: #56839b;
   --s3-grey: #8f8f8f;
   padding-block: 1.5rem 6rem;
-   
+
   max-width: 1200px;
-
 }
-
 
 /* ---------- النص ---------- */
 .service-Row3-text {
@@ -2947,7 +2938,7 @@
 }
 
 /* ---------- التبويبات ---------- */
-.service-Row3-tabs{
+.service-Row3-tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -2957,7 +2948,7 @@
   background-color: #fcfcfc;
 }
 
-.service-Row3-tab{
+.service-Row3-tab {
   padding: 0.9rem 0.4rem;
   border: 0;
   border-radius: 12px;
@@ -3104,7 +3095,7 @@
 .Row4-text {
   display: flex;
   flex-direction: column;
-  gap: 1.75rem; 
+  gap: 1.75rem;
 }
 
 /* الفقرة تستعمل .service-1-lead (نفس الحجم وتباعد الأسطر 1.4)، ونلغي هوامشها لأن gap يتكفل بها */
