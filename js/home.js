@@ -15,8 +15,8 @@ setInterval(() => {
 
 /* ========Buttons for images in services======== */
 
-const tabs = document.querySelectorAll(".section3-tab");
-const imageList = document.querySelector(".service1-section3-images");
+const tabs = document.querySelectorAll(".service-Row3-tab");
+const imageList = document.querySelector(".service3-Row3-images");
 const images={
     landmarks:[
          "./images/governorates/Damascus/landmarks/landmarks_02.jpg",
@@ -50,10 +50,4 @@ const images={
     });
 
 
-    //   for(let i in images){
-    //     console.log(images[i])
-    //     images[i].map(p=>{
-    //         console.log(p)
-    //     })
-    //   }
-        //    images
+   
