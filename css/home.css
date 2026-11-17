@@ -26,12 +26,10 @@
   overflow: hidden;
 }
 
-.heroContent {
-  position: relative;
-  z-index: 2;
-}
+
 .herorow {
   min-height: 100vh;
+  
 }
 .heroContent {
   position: absolute;
@@ -39,6 +37,7 @@
   right: 8%;
   width: min(544px, 45%);
   height: auto;
+  z-index: 2;
 }
 .welcomeText {
   font-family: "pHallsKhodkar", sans-serif;
@@ -100,7 +99,7 @@
   height: auto;
 }
 .imgHome img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   opacity: 1;
   transition: opacity 0.6s ease;
@@ -211,37 +210,53 @@
 }
 
 @media (max-width: 991.98px) {
+  .herorow{
+    margin: auto;
+  }
   .heroContent {
-    position: relative;
-    top: auto;
-    right: auto;
+    position: absolute;
+     top: 12%;
+     right: 0;
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     padding: 3rem 1.5rem 1rem;
     text-align: center;
+    margin: auto;
+
   }
 
   .heroDes {
+    
     max-width: 35rem;
     margin-inline: auto;
     margin-block: 1.5rem;
+   
+   
   }
 
   .heroActions {
     justify-content: center;
   }
-
   .imgHome {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    width: min(80%, 600px);
-    margin-inline: auto;
-  }
+  position: absolute;
+  bottom: 0;
+  right:15%;
+  width: 600px;
+  height:auto;
+  
+}
+.imgHome img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  z-index: 2;
+}
+ 
 
   .imgBirds {
     width: 40%;
-    top: 5%;
+    top: 15%;
     left: 5%;
   }
 
@@ -257,16 +272,27 @@
   .statsSection {
     padding: 4rem 1.5rem;
   }
+  .statsDecoration{
+    opacity: 0.5;
+  }
+   
 }
-
+@media (max-width: 767.98px) {
+    .imgHome {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  width: 600px;
+  height:auto;
+ 
+}
+}
 @media (max-width: 575.98px) {
   .sectionHome {
     min-height: 100svh;
   }
 
-  .heroContent {
-    padding: 2rem 1rem 1rem;
-  }
+
 
   .welcomeText {
     font-size: clamp(1.8rem, 7vw, 2.5rem);
@@ -293,14 +319,18 @@
     padding: 0.75rem 1rem;
     font-size: 1rem;
   }
-
-  .imgHome {
-    width: 100%;
+   .imgHome {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    right: -5%;
   }
-
+ 
+  
+  
   .imgBirds {
     width: 55%;
-    top: 5%;
+    top: 15%;
     left: 0;
   }
   .statsSection {
