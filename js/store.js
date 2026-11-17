@@ -40,7 +40,42 @@ const productsData = [
         categoryAr: "مطبوعات",
         title: "لوحة باب شرقي",
         image: "./images/products/handbag_04.png"
-    }
+    },
+    {
+        id: 7,
+        category: "bags",
+        categoryAr: "حقيبة",
+        title: "الحب من سوريا",
+        image: "./images/products/handbag_01.png"
+    },
+    {
+        id: 8,
+        category: "bags",
+        categoryAr: "حقيبة",
+        title: "الحب من سوريا",
+        image: "./images/products/handbag_01.png"
+    },
+    {
+        id: 9,
+        category: "bags",
+        categoryAr: "حقيبة",
+        title: "الحب من سوريا",
+        image: "./images/products/handbag_01.png"
+    },
+    {
+        id: 10,
+        category: "bags",
+        categoryAr: "حقيبة",
+        title: "الحب من سوريا",
+        image: "./images/products/handbag_01.png"
+    },
+    {
+        id: 11,
+        category: "bags",
+        categoryAr: "حقيبة",
+        title: "الحب من سوريا",
+        image: "./images/products/handbag_01.png"
+    },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
