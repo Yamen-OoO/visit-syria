@@ -126,7 +126,7 @@
     background-position: right, left;
     background-repeat: no-repeat;
     background-size: 728px 2161px, 728px 2161px;
-    background-position-x: +1100px, -300px;
+    background-position-x: +900px, -300px;
     opacity: 0.05;
     z-index: 0;
     pointer-events: none;
@@ -171,8 +171,18 @@
 }
 
 .product-card:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+
 }
+
+.product-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
 
 
 .mobileApp-section {
