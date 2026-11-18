@@ -3,18 +3,29 @@ let counter = document.querySelector(".counter-section");
 
 const observer = new IntersectionObserver((entries) => {
   if (entries[0].isIntersecting) {
-    nums.forEach((n) => {
-      let start = 0;
-      let end = Number(n.dataset.num);
 
-      let count = setInterval(() => {
-        start++;
-        n.textContent = start;
-        if (start == end) {
-          clearInterval(count);
+    nums.forEach((n) => {
+      let end = Number(n.dataset.num);
+      let duration = 2000;
+      let startTime = null;
+
+      function updateCounter(timestamp) {
+        if (!startTime) startTime = timestamp;
+
+        let progress = Math.min((timestamp - startTime) / duration, 1);
+
+        n.textContent = Math.floor(progress * end);
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCounter);
+        } else {
+          n.textContent = end;
         }
-      }, 2000 / end);
+      }
+
+      requestAnimationFrame(updateCounter);
     });
+
     observer.unobserve(counter);
   }
 });

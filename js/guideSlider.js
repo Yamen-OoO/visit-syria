@@ -11,8 +11,8 @@
       dynamicBullets: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".slide-content .swiper-button-next",
+      prevEl: ".slide-content .swiper-button-prev",
     },
 
     breakpoints:{
@@ -24,3 +24,12 @@
         },
     },
   });
+
+  const modalSwiper = new Swiper(".modal-images", {
+  slidesPerView: 1,
+  nested: true,
+  navigation: {
+    nextEl: ".modal-next",
+    prevEl: ".modal-prev",
+  },
+});

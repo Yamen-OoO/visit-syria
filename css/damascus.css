@@ -58,6 +58,7 @@ html, body {
   max-width: 1483px;
   width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 .guide-title,
@@ -175,6 +176,7 @@ html, body {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
+  border: none;
 }
 
 .card-button:hover {
@@ -271,7 +273,7 @@ html, body {
 .food-cards .card {
   max-width: 352px;
   height: 270px;
-  padding: 0 10px;
+  padding: 0 20px;
   text-align: justify;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
@@ -351,7 +353,36 @@ html, body {
   background-color: #B4DAEE;
 }
 
+.season-card-line-1 {
+  position: absolute;
+  top: 60%;
+  right: 11.77%;
+  z-index: -1;
+}
+
+.season-card-line-2 {
+  position: absolute;
+  top: 60%;
+  right: 36.77%;
+  z-index: -1;
+}
+
+.season-card-line-3 {
+  position: absolute;
+  top: 60%;
+  right: 61.77%;
+  z-index: -1;
+}
+
+.season-card-line-4 {
+  position: absolute;
+  top: 60%;
+  right: 86.77%;
+  z-index: -1;
+}
+
 .guide-epilogue {
+  transform: translateY(-35%);
   position: relative;
   display: flex;
   justify-content: center;
@@ -374,16 +405,185 @@ html, body {
 }
 
 .guide-epilogue .floral {
+  max-width: 600px;
   width: 100%;
   position: absolute;
   left: 1%;
   object-fit: cover;
+  transform: translateY(40px);
   z-index: 0;
-  display: none;
 }
 
+.custom-modal {
+  width: 80vw;
+  max-width: 80vw;
+}
+
+.modal-content {
+  padding: 0 25px;
+  width: 100%;
+}
+
+.modal-images {
+  width: 100%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 291px 140px;
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid img:first-child {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.modal-swiper-span {
+  color: white;
+  background-color: black;
+  width: 17%;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+.modal-image-container {
+  position: relative;
+}
+
+.modal-next, .modal-prev {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #C9477B;
+  border: 1px solid white;
+}
+
+.modal-next {
+  right: 20px;
+  transform: translateX(-20px);
+}
+
+.modal-prev {
+  left: 20px;
+  transform: translateX(20px);
+}
+
+.modal-details-button,
+.modal-foodMenu-button {
+  width: fit-content;
+  border: none;
+  background: none;
+  border-bottom: 3px solid transparent;
+}
+
+.modal-details-button.active,
+.modal-foodMenu-button.active {
+  border-bottom: 3px solid #366680;
+}
+
+.modal-card-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modal-card-icons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.modal-second-section p, h5 {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-X: auto;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+
+
+.modal-second-section img {
+  flex-shrink: 0;
+}
+
+.modal button {
+  white-space: nowrap;
+}
+
+.modal-location-button {
+  border: none;
+  background: none;
+  color: #4fb4e9;
+}
+
+.social-logos {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    z-index: 1000;
+}
+
+.modal .card {
+  z-index: 1;
+}
+
+.modal-florals {
+  position: absolute;
+  top: 69%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  pointer-events: none;
+}
+
+.modal-florals img {
+  display: block;
+  width: 25%;
+  height: clamp(272px, 12vw, 150px);
+  object-fit: contain;
+  z-index: 1000;
+  opacity: 0.07;
+}
+
+
+/* mediaQuery */
 @media (max-width: 1200px) {
   .guide-epilogue {
+    transform: translateY(-26%);
     flex-direction: column;
     text-align: justify;
   }
@@ -396,18 +596,44 @@ html, body {
   top: 35%;
   left: 24%;
 }
+
+.modal-florals {
+  top: 77%;
+}
+
+
 }
 
 @media (max-width: 992px) {
+  .guide-epilogue {
+    transform: translateY(-9%);
+  }
+  .guide-epilogue .floral {
+    transform: translateX(-30px);
+    transform: translatey(-10px);
+  }
   .food-florals img {
     transform: translateY(-120%);
   }
   .four-seasons-section {
     transform: translateY(-50%);
   }
+  .modal-florals {
+    top: 54%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .modal-florals img {
+    width: 225px;
+    flex: 0;
+  }
+ 
 }
 
 @media (max-width: 768px) {
+  .season-card-line-1, .season-card-line-2, .season-card-line-3, .season-card-line-4 {
+    display: none;
+  }
   .food-florals {
     flex-direction: column;
     justify-content: center;
@@ -425,6 +651,31 @@ html, body {
   }
   .guide-epilogue {
     transform: translateY(-100%);
+  }
+  .guide-epilogue .floral {
+    width: 500px;
+    left: 15%;
+    transform: translateY(13%);
+  }
+  .modal-card-icons {
+     grid-template-columns: repeat(6, 1fr);
+     column-gap: 0;
+     row-gap: 20px;
+  }
+  .modal-card-icons .icon {
+    grid-column: span 2;
+  }
+  .modal-card-icons .icon:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+  .modal-card-icons .icon:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+  .modal-florals {
+    top: 53%;
+  }
+  .modal-florals img {
+    width: 250px;
   }
 }
 
@@ -448,5 +699,16 @@ html, body {
     }
     .swiper-florals img {
       display: none;
+    }
+    .guide-epilogue .floral {
+      width: 350px;
+      top: 56%;
+      left: 13%;
+    }
+    .custom-modal {
+      margin: 20px auto 20px;
+    }
+    .modal-card-icons {
+      gap: 30px;
     }
 }
