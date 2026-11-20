@@ -55,10 +55,10 @@ html, body {
 }
 
 .city-image {
-  max-width: 1483px;
+  display: flex;
+  justify-self: center;
   width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .guide-title,
@@ -252,14 +252,21 @@ html, body {
   right: calc(44% + min(280px, 50%) - 5px);
       left: auto;
 }
-.swiper-title {
-      text-align: center;
-    }
+
 }
 
 @media (max-width: 650px) {
-  .swiper-buttons {
-    display: none;
+  .swiper-buttons .next {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    transform: translateX(-15px);
+  }
+  .swiper-buttons .prev {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    transform: translateX(15px);
   }
 }
 
@@ -272,10 +279,15 @@ html, body {
 
 .food-cards .card {
   max-width: 352px;
-  height: 270px;
+  height: auto;
   padding: 0 20px;
   text-align: justify;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.food-cards h5 {
+  white-space: wrap;
+  text-align: center;
 }
 
 .food-section {
@@ -301,7 +313,7 @@ html, body {
 }
 
 .counter-section {
-  transform: translateY(-150%);
+  transform: translateY(-140%);
 }
 
 .counter-section img {
@@ -402,6 +414,7 @@ html, body {
   width: 100%;
   z-index: 1;
   left: 0;
+  transform: translateY(12px);
 }
 
 .guide-epilogue .floral {
@@ -424,32 +437,69 @@ html, body {
   width: 100%;
 }
 
+/* الصورة الكبيرة المتحركة */
 .modal-images {
   width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
 }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 291px 140px;
-  gap: 10px;
+.modal-images .swiper-wrapper,
+.modal-images .swiper-slide {
+  width: 100%;
+  height: 100%;
 }
 
-.image-grid img {
+.modal-images .swiper-slide img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.image-grid img:first-child {
-  grid-column: 1 / 4;
-  grid-row: 1;
+.modal-next,
+.modal-prev {
+  top: 150px;
+  z-index: 10;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+  align-items: stretch;
+  direction: rtl;
+}
+
+.image-grid > img,
+.image-grid > div {
+  width: 100%;
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+.image-grid img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid > div {
+  position: relative;
+}
+
+
 
 .modal-swiper-span {
   color: white;
   background-color: black;
-  width: 17%;
+  width: 50%;
   text-align: center;
   transform: translateY(-100%);
 }
@@ -587,6 +637,9 @@ html, body {
     flex-direction: column;
     text-align: justify;
   }
+  .guide-epilogue img {
+    max-width: 100%;
+  }
   .text {
     margin-top: 30px;
     padding: 0 40px;
@@ -627,10 +680,12 @@ html, body {
     width: 225px;
     flex: 0;
   }
- 
 }
 
 @media (max-width: 768px) {
+  .city-image {
+    height: 50vh;
+  }
   .season-card-line-1, .season-card-line-2, .season-card-line-3, .season-card-line-4 {
     display: none;
   }
@@ -680,6 +735,10 @@ html, body {
 }
 
 @media (max-width: 572px) {
+  .slide-container {
+    max-width: 470px;
+    width: 94%;
+  }
   .card-icons {
      grid-template-columns: repeat(6, 1fr);
      column-gap: 0;
@@ -711,4 +770,8 @@ html, body {
     .modal-card-icons {
       gap: 30px;
     }
+}
+
+html:has(body.modal-open), body.modal-open {
+  overflow: hidden !important;
 }
