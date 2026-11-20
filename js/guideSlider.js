@@ -1,6 +1,9 @@
 const title = document.querySelector(".modal-title");
 const buttons = document.querySelectorAll(".open-modal-button")
 
+
+let lang = 'ar'
+
 const resturantsArray = [
    {
     name: "La Capital Damascus",
