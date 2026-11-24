@@ -1,0 +1,360 @@
+{
+    "resturantsArray": [
+        {
+            "name": "La Capital Damascus",
+            "type_1": "Eastern",
+            "type_2": "Western",
+            "type_3": "Grills",
+            "desc": "Discover Syria's landmarks and entertainment destinations, including distinguished restaurants and cafes, quickly and with all the details through our tourism guide.",
+            "star_1": "./images/icons/Star.png",
+            "star_2": "./images/icons/Star.png",
+            "star_3": "./images/icons/Star.png",
+            "star_4": "./images/icons/Star.png",
+            "star_5": "./images/icons/Star.png",
+            "location": "Damascus - Al Hamra Street - Opposite the Umayyad Mosque",
+            "workTime": "Working hours: 8 AM - 12 AM",
+            "open_close": "Open Now",
+            "phone": "Phone: 0999999999",
+            "features": [
+                {
+                    "icon": "./images/icons/group_add.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Wi-Fi.png",
+                    "text": "Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/package_car.png",
+                    "text": "Takeaway"
+                },
+                {
+                    "icon": "./images/icons/Tree.png",
+                    "text": "Nature"
+                },
+                {
+                    "icon": "./images/icons/parking.png",
+                    "text": "Parking"
+                }
+            ],
+            "swiperImages": [
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                }
+            ],
+            "imgGrid_1": [
+                {
+                    "img": "",
+                    "moreImg": "+4"
+                }
+            ],
+            "imgGrid_2": [
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                }
+            ],
+            "servicesCardTitle": [
+                {
+                    "icon": "./images/icons/Bell.png",
+                    "text": "Services"
+                }
+            ],
+            "servicesCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Delivery service"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Takeaway orders"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Advance reservations"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Live music"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Screens"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Events and parties"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Private halls"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Event and party services"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Group reservations"
+                }
+            ],
+            "atmospheresCardTitle": [
+                {
+                    "icon": "./images/icons/Home.png",
+                    "text": "Atmosphere"
+                }
+            ],
+            "atmospheresCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Indoor seating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Outdoor seating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "View"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Children's play area"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Non-smoking areas"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Smoking areas"
+                }
+            ],
+            "equipmentCardTitle": [
+                {
+                    "icon": "./images/icons/Setting_line.png",
+                    "text": "Comfort and Facilities"
+                }
+            ],
+            "equipmentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Free Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Parking"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Valet parking"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Air conditioning"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Heating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Digital menus"
+                }
+            ],
+            "paymentCardTitle": [
+                {
+                    "icon": "./images/icons/Money.png",
+                    "text": "Payment Methods"
+                }
+            ],
+            "paymentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Cash"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Electronic payment"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Credit cards"
+                }
+            ],
+            "moreInformationCardDetailsText": "Working hours: 8 AM - 10 PM",
+            "limitsCardTitle": [
+                {
+                    "icon": "./images/icons/Info.png",
+                    "text": "Restrictions and Limitations"
+                }
+            ],
+            "limitsCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "No alcoholic beverages"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Hookah is not available"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Entry is restricted to people over 18"
+                }
+            ]
+        },
+        {
+            "name": "Cali",
+            "desc": "This is Cali",
+            "star_1": "./images/icons/Star.png",
+            "star_2": "./images/icons/Star.png",
+            "star_3": "./images/icons/Star.png",
+            "features": [
+                {
+                    "icon": "./images/icons/group_add.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Wi-Fi.png",
+                    "text": "Wi-Fi"
+                }
+            ],
+            "swiperImages": [
+                {
+                    "img": "./images/governorates/Damascus/Restaurants/cali/1.jpg"
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                }
+            ],
+            "imgGrid_1": [
+                {
+                    "img": "",
+                    "moreImg": "+4"
+                }
+            ],
+            "imgGrid_2": [
+                {
+                    "img": "./images/governorates/Damascus/Restaurants/cali/2.jpg"
+                },
+                {
+                    "img": "./images/governorates/Damascus/Restaurants/cali/3.jpg"
+                },
+                {
+                    "img": "./images/governorates/Damascus/Restaurants/cali/4.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Restaurant 3",
+            "description": "This is restaurant 3"
+        },
+        {
+            "name": "Restaurant 4",
+            "description": "This is restaurant 4"
+        }
+    ],
+    "cafeArray": [
+        {
+            "name": "Al-Qishla",
+            "description": "This is Al-Qishla"
+        },
+        {
+            "name": "R House",
+            "description": "This is R House"
+        },
+        {
+            "name": "Cafe 3",
+            "description": "This is cafe 3"
+        },
+        {
+            "name": "Cafe 4",
+            "description": "This is cafe 4"
+        }
+    ],
+    "nightClubArray": [
+        {
+            "name": "Viva Rooftop",
+            "description": "This is Viva Rooftop"
+        },
+        {
+            "name": "La Joia Rooftop",
+            "description": "This is La Joia Rooftop"
+        },
+        {
+            "name": "Nightclub 3",
+            "description": "This is nightclub 3"
+        },
+        {
+            "name": "Nightclub 4",
+            "description": "This is nightclub 4"
+        }
+    ],
+    "landmarkArray": [
+        {
+            "name": "Al-Hejaz Railway Station",
+            "description": "This is Al-Hejaz Railway Station"
+        },
+        {
+            "name": "Straight Street, Bab Sharqi",
+            "description": "This is Straight Street, Bab Sharqi"
+        },
+        {
+            "name": "Landmark 3",
+            "description": "This is landmark 3"
+        },
+        {
+            "name": "Landmark 4",
+            "description": "This is landmark 4"
+        }
+    ],
+    "hotelArray": [
+        {
+            "name": "Golden Mazzeh",
+            "description": "This is Golden Mazzeh"
+        },
+        {
+            "name": "Al-Nawfara",
+            "description": "This is Al-Nawfara"
+        },
+        {
+            "name": "Hotel 3",
+            "description": "This is hotel 3"
+        },
+        {
+            "name": "Hotel 4",
+            "description": "This is hotel 4"
+        }
+    ]
+}

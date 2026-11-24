@@ -684,7 +684,10 @@ html, body {
 
 @media (max-width: 768px) {
   .city-image {
-    height: 50vh;
+    height: 100vh;
+  }
+  .guide-title {
+    transform: translateY(5px) !important;
   }
   .season-card-line-1, .season-card-line-2, .season-card-line-3, .season-card-line-4 {
     display: none;
@@ -735,6 +738,9 @@ html, body {
 }
 
 @media (max-width: 572px) {
+  .city-image {
+    object-fit: cover;
+  }
   .slide-container {
     max-width: 470px;
     width: 94%;
@@ -774,4 +780,10 @@ html, body {
 
 html:has(body.modal-open), body.modal-open {
   overflow: hidden !important;
+}
+
+@media (max-width: 890px) {
+  .guide-title {
+    transform: translateY(-20px);
+  }
 }
