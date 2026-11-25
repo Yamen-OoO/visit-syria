@@ -1,7 +1,8 @@
 {
   "resturantsArray": [
     {
-      "name": "La Capital Damascus",
+      "id": "cali",
+      "name": "Cali",
       "type_1": "شرقي",
       "type_2": "غربي",
       "type_3": "مشاوي",
@@ -39,7 +40,7 @@
       ],
       "swiperImages": [
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         },
         {
           "img": ""
@@ -53,24 +54,23 @@
         {
           "img": ""
         }
-       ],
-       "imgGrid_1": [
+      ],
+      "imgGrid_1": [
         {
-          "img": "",
+          "img": "./images/governorates/Damascus/Restaurants/cali/2.jpg",
           "moreImg": "+4"
         }
-       ],
-       "imgGrid_2": [
+      ],
+      "imgGrid_2": [
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/3.jpg"
         },
         {
-          "img": ""
-        },
-        {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/4.jpg"
         }
-       ],
+      ],
+      "showDetails": "التفاصيل",
+      "showDetails_2": "قائمة الطعام",
       "servicesCardTitle": [
         {
           "icon": "./images/icons/Bell.png",
@@ -203,11 +203,8 @@
           "text": "بطاقات إئتمان"
         }
       ],
-        
-
-          "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
-
-          "limitsCardTitle": [
+      "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "limitsCardTitle": [
         {
           "icon": "./images/icons/Info.png",
           "text": "الحدود والقيود"
@@ -224,17 +221,28 @@
         },
         {
           "icon": "./images/icons/Done_duotone.png",
-          "text": "مسموح فقط لمن فوق 18 سنة"
+          "text": "مسموح فقط لمن فوق 18"
         }
       ]
-
-    },
+    }
+  ],
+  "cafeArray": [
     {
-      "name": "Cali",
-      "desc": "this is cali",
-       "star_1": "./images/icons/Star.png",
+      "id": "r-house",
+      "name": "R house",
+      "type_1": "شرقي",
+      "type_2": "غربي",
+      "type_3": "مشاوي",
+      "desc": "اكتشف معالم سوريا وأماكنها الترفيهية، من مطاعم وكافيهات مميزة، بشكل سريع ومع كافة التفاصيل، عبر الدليل السياحي الذي سنقدمه لك.",
+      "star_1": "./images/icons/Star.png",
       "star_2": "./images/icons/Star.png",
       "star_3": "./images/icons/Star.png",
+      "star_4": "./images/icons/Star.png",
+      "star_5": "./images/icons/Star.png",
+      "location": "دمشق - شارع الحمرا - كقابل جامع الاموي",
+      "workTime": "ساعات العمل: 8 صباحاً - 12 مساءً",
+      "open_close": "مفتوح الآن",
+      "phone": "رقم النواصل: 0999999999",
       "features": [
         {
           "icon": "./images/icons/group_add.png",
@@ -243,11 +251,23 @@
         {
           "icon": "./images/icons/Wi-Fi.png",
           "text": "واي فاي"
+        },
+        {
+          "icon": "./images/icons/package_car.png",
+          "text": "طلبات خارجية"
+        },
+        {
+          "icon": "./images/icons/Tree.png",
+          "text": "طبيعة"
+        },
+        {
+          "icon": "./images/icons/parking.png",
+          "text": "موقف سيارات"
         }
-       ],
-       "swiperImages": [
+      ],
+      "swiperImages": [
         {
-          "img": "./images/governorates/Damascus/Restaurants/cali/1.jpg"
+          "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         },
         {
           "img": ""
@@ -261,104 +281,857 @@
         {
           "img": ""
         }
-       ],
-       "imgGrid_1": [
+      ],
+      "imgGrid_1": [
         {
-          "img": "",
+          "img": "./images/governorates/Damascus/Café/rhouse/3.jpg",
           "moreImg": "+4"
         }
-       ],
-       "imgGrid_2": [
+      ],
+      "imgGrid_2": [
         {
-          "img": "./images/governorates/Damascus/Restaurants/cali/2.jpg"
+          "img": "./images/governorates/Damascus/Café/rhouse/4.jpg"
         },
         {
-          "img": "./images/governorates/Damascus/Restaurants/cali/3.jpg"
-        },
-        {
-          "img": "./images/governorates/Damascus/Restaurants/cali/4.jpg"
+          "img": "./images/governorates/Damascus/Café/rhouse/5.jpg"
         }
-       ]
-    },
-    {
-      "name": "resturant 3",
-      "description": "this is resturant 3"
-    },
-    {
-      "name": "resturant 4",
-      "description": "resturant 4"
-    }
-  ],
-  "cafeArray": [
-    {
-      "name": "القشلة",
-      "description": "this is qashla"
-    },
-    {
-      "name": "R house",
-      "description": "this is R house"
-    },
-    {
-      "name": "cafe 3",
-      "description": "this is cafe 3"
-    },
-    {
-      "name": "cafe 4",
-      "description": "this is cafe 4"
+      ],
+      "showDetails": "التفاصيل",
+      "showDetails_2": "قائمة الطعام",
+      "servicesCardTitle": [
+        {
+          "icon": "./images/icons/Bell.png",
+          "text": "الخدمات"
+        }
+      ],
+      "servicesCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "واي فاي مجاني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "أماكن داخلية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "جلسات خارجية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مكيف"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "تدفئة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "موقف سيارات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خدمة طلبات خارجية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حجز مسبق"
+        }
+      ],
+      "atmospheresCardTitle": [
+        {
+          "icon": "./images/icons/Home.png",
+          "text": "الأجواء"
+        }
+      ],
+      "atmospheresCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "هادئ ومناسب للعمل"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للدراسة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للاجتماعات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للعائلات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للأصدقاء"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "رومنسي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "عصري"
+        }
+      ],
+      "equipmentCardTitle": [
+        {
+          "icon": "./images/icons/cocktail.png",
+          "text": "المأكولات والمشروبات"
+        }
+      ],
+      "equipmentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "القهوة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "الشاي والأعشاب"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "عصائر طازجة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "سموثي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ميلك شيك"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مشروبات باردة وساخنة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حلويات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "سندويشات ووجبات خفيفة"
+        }
+      ],
+      "paymentCardTitle": [
+        {
+          "icon": "./images/icons/Money.png",
+          "text": "طرق الدفع"
+        }
+      ],
+      "paymentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "نقدي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "دفع إلكتروني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "بطاقات إئتمان"
+        }
+      ],
+      "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "limitsCardTitle": [
+        {
+          "icon": "./images/icons/Info.png",
+          "text": "الحدود والقيود"
+        }
+      ],
+      "limitsCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "لا يوجد مشروب كحولي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "الأركيلة غير موجودة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مسموح فقط لمن فوق 18"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يتطلب حجز مسبق"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ممنوع التصوير"
+        }
+      ]
     }
   ],
   "nightClubArray": [
     {
+      "id": "viva-rooftop",
       "name": "viva rooftop",
-      "description": "this is viva rooftop"
-    },
-    {
-      "name": "La joia Rooftop",
-      "description": "this is La joia Rooftop"
-    },
-    {
-      "name": "nightClub 3",
-      "description": "this is nightClub 3"
-    },
-    {
-      "name": "nightClub 4",
-      "description": "this is nightClub 4"
+      "type_1": "شرقي",
+      "type_2": "غربي",
+      "type_3": "مشاوي",
+      "desc": "اكتشف معالم سوريا وأماكنها الترفيهية، من مطاعم وكافيهات مميزة، بشكل سريع ومع كافة التفاصيل، عبر الدليل السياحي الذي سنقدمه لك.",
+      "star_1": "./images/icons/Star.png",
+      "star_2": "./images/icons/Star.png",
+      "star_3": "./images/icons/Star.png",
+      "star_4": "./images/icons/Star.png",
+      "star_5": "./images/icons/Star.png",
+      "location": "دمشق - شارع الحمرا - كقابل جامع الاموي",
+      "workTime": "ساعات العمل: 8 صباحاً - 12 مساءً",
+      "open_close": "مفتوح الآن",
+      "phone": "رقم النواصل: 0999999999",
+      "features": [
+        {
+          "icon": "./images/icons/group_add.png",
+          "text": "مناسب للعائلات"
+        },
+        {
+          "icon": "./images/icons/Wi-Fi.png",
+          "text": "واي فاي"
+        },
+        {
+          "icon": "./images/icons/package_car.png",
+          "text": "طلبات خارجية"
+        },
+        {
+          "icon": "./images/icons/Tree.png",
+          "text": "طبيعة"
+        },
+        {
+          "icon": "./images/icons/parking.png",
+          "text": "موقف سيارات"
+        }
+      ],
+      "swiperImages": [
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        }
+      ],
+      "imgGrid_1": [
+        {
+          "img": "",
+          "moreImg": "+4"
+        }
+      ],
+      "imgGrid_2": [
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        }
+      ],
+      "showDetails": "التفاصيل",
+      "servicesCardTitle": [
+        {
+          "icon": "./images/icons/Bell.png",
+          "text": "الخدمات"
+        }
+      ],
+      "servicesCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "واي فاي مجاني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "أماكن داخلية وجلسات خارجية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "إطلالة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناطق VIP"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "نظام صوتي وضوئي احترافي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناطق رقص وجلوس"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "موقف سيارات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مكيف وتدفئة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حجز جماعي"
+        }
+      ],
+      "atmospheresCardTitle": [
+        {
+          "icon": "./images/icons/Home.png",
+          "text": "الأجواء والتجربة"
+        }
+      ],
+      "atmospheresCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "صاخب وحيوي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "راقي وفاخر"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "عصري"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للمجموعات والأصدقاء"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للحفلات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للأعياد والمناسبات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "أماكن للمدخنين"
+        }
+      ],
+      "equipmentCardTitle": [
+        {
+          "icon": "./images/icons/Chield_check.png",
+          "text": "القواعد والقيود"
+        }
+      ],
+      "equipmentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "دخول لمن فوق 18 سنة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ملابس رسمية أو معينة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ممنوع التصوير"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يتطلب حجز مسبق"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "لا يسمح بدخول الأطفال"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "الحيوانات الأليفة غير مسموح بها"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "قيود على عدد الأشخاص"
+        }
+      ],
+      "paymentCardTitle": [
+        {
+          "icon": "./images/icons/Money.png",
+          "text": "طرق الدفع"
+        }
+      ],
+      "paymentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "نقدي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "دفع إلكتروني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "بطاقات إئتمان"
+        }
+      ],
+      "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "limitsCardTitle": [
+        {
+          "icon": "./images/icons/Info.png",
+          "text": "ملاحظات مهمة"
+        }
+      ],
+      "limitsCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يفضل الحجز المسبق لضمان الدخول"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "قد يتم طلب إثبات العمر"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "قد تفرض قيود على عدد الأشخاص"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يرجى الالتزام باللباس الرسمي أو المحدد"
+        }
+      ]
     }
   ],
   "landmarkArray": [
     {
+      "id": "al-hijaz",
       "name": "محطة الحجاز",
-      "description": "this is محطة الحجاز"
-    },
-    {
-      "name": "Straight Street Bab Sharqi",
-      "description": "this is Straight Street Bab Sharqi"
-    },
-    {
-      "name": "landmark 3",
-      "description": "this is landmark 3"
-    },
-    {
-      "name": "landmark 4",
-      "description": "this is landmark 4"
+      "type_1": "شرقي",
+      "type_2": "غربي",
+      "type_3": "مشاوي",
+      "desc": "اكتشف معالم سوريا وأماكنها الترفيهية، من مطاعم وكافيهات مميزة، بشكل سريع ومع كافة التفاصيل، عبر الدليل السياحي الذي سنقدمه لك.",
+      "star_1": "./images/icons/Star.png",
+      "star_2": "./images/icons/Star.png",
+      "star_3": "./images/icons/Star.png",
+      "star_4": "./images/icons/Star.png",
+      "star_5": "./images/icons/Star.png",
+      "location": "دمشق - شارع الحمرا - كقابل جامع الاموي",
+      "workTime": "ساعات العمل: 8 صباحاً - 12 مساءً",
+      "open_close": "مفتوح الآن",
+      "phone": "رقم النواصل: 0999999999",
+      "features": [
+        {
+          "icon": "./images/icons/group_add.png",
+          "text": "مناسب للعائلات"
+        },
+        {
+          "icon": "./images/icons/Wi-Fi.png",
+          "text": "واي فاي"
+        },
+        {
+          "icon": "./images/icons/package_car.png",
+          "text": "طلبات خارجية"
+        },
+        {
+          "icon": "./images/icons/Tree.png",
+          "text": "طبيعة"
+        },
+        {
+          "icon": "./images/icons/parking.png",
+          "text": "موقف سيارات"
+        }
+      ],
+      "swiperImages": [
+        {
+          "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        }
+      ],
+      "imgGrid_1": [
+        {
+          "img": "./images/governorates/Damascus/landmarks/hijaz/1.jpg",
+          "moreImg": "+4"
+        }
+      ],
+      "imgGrid_2": [
+        {
+          "img": "./images/governorates/Damascus/landmarks/hijaz/4.jpg"
+        },
+        {
+          "img": "./images/governorates/Damascus/landmarks/hijaz/2.jpg"
+        }
+      ],
+      "showDetails": "التفاصيل",
+      "servicesCardTitle": [
+        {
+          "icon": "./images/icons/File_dock.png",
+          "text": "نبذة مختصرة"
+        }
+      ],
+      "servicesCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "اكتشف معالم سوريا وأماكنها الترفيهية، من مطاعم وكافيهات مميزة، بشكل سريع ومع كافة التفاصيل، عبر الدليل السياحي الذي سنقدمه لك."
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "نوع المعلم: أثري"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "الحقبة الزمنية: القرن الثالث قبل الميلاد"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "المدة الزمنية المتوقعة: 2 - 4 ساعات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "أفضل وقت للزيارة: من مارس إلى مايو / سبتمبر إلى نوفمبر"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "رسوم الدخول: 3$ - 10$"
+        }
+      ],
+      "atmospheresCardTitle": [
+        {
+          "icon": "./images/icons/bell.png",
+          "text": "الإرشادات والملاحظات الهامة"
+        }
+      ],
+      "atmospheresCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ارتداء ملابس مريحة و مناسبة للمشي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يوصي بحمل الماء و مظلة شمسية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يفضل زيارة الموقع في الصباح أو قبل الغروب لتجنب الحرارة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "يوجد بعض الأماكن غير مهيأة لذوي الحركو المحدودوة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "أفضل وقت للزيارة: من مارس ألى مايو / سبتمبر ألى نوفمبر"
+        }
+      ],
+      "equipmentCardTitle": [],
+      "equipmentCardDetails": [],
+      "paymentCardTitle": [
+        {
+          "icon": "./images/icons/Setting_line.png",
+          "text": "المرافق والخدمات"
+        }
+      ],
+      "paymentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مطاعم قريبة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مقاهي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "دورات مياه"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "موقف سيارات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناطق استراحة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حديقة محيطة"
+        }
+      ],
+      "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "limitsCardTitle": [
+        {
+          "icon": "./images/icons/Group01.png",
+          "text": "الزوار"
+        }
+      ],
+      "limitsCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للعائلات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للأصدقاء"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب للأطفال"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مناسب لذوي الأحتياجات الخاصة (بعض الأماكن)"
+        }
+      ]
     }
   ],
   "hotelArray": [
     {
+      "id": "golden-mazzeh",
       "name": "Golden Mazzeh",
-      "description": "this is Golden Mazzeh"
-    },
-    {
-      "name": "النوفرة",
-      "description": "this is النوفرة"
-    },
-    {
-      "name": "hotel 3",
-      "description": "this is hotel 3"
-    },
-    {
-      "name": "hotel 4",
-      "description": "this is hotel 4"
+      "type_1": "شرقي",
+      "type_2": "غربي",
+      "type_3": "مشاوي",
+      "desc": "اكتشف معالم سوريا وأماكنها الترفيهية، من مطاعم وكافيهات مميزة، بشكل سريع ومع كافة التفاصيل، عبر الدليل السياحي الذي سنقدمه لك.",
+      "star_1": "./images/icons/Star.png",
+      "star_2": "./images/icons/Star.png",
+      "star_3": "./images/icons/Star.png",
+      "star_4": "./images/icons/Star.png",
+      "star_5": "./images/icons/Star.png",
+      "location": "دمشق - شارع الحمرا - كقابل جامع الاموي",
+      "workTime": "ساعات العمل: 8 صباحاً - 12 مساءً",
+      "open_close": "مفتوح الآن",
+      "phone": "رقم النواصل: 0999999999",
+      "features": [
+        {
+          "icon": "./images/icons/group_add.png",
+          "text": "مناسب للعائلات"
+        },
+        {
+          "icon": "./images/icons/Wi-Fi.png",
+          "text": "واي فاي"
+        },
+        {
+          "icon": "./images/icons/package_car.png",
+          "text": "طلبات خارجية"
+        },
+        {
+          "icon": "./images/icons/Tree.png",
+          "text": "طبيعة"
+        },
+        {
+          "icon": "./images/icons/parking.png",
+          "text": "موقف سيارات"
+        }
+      ],
+      "swiperImages": [
+        {
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        },
+        {
+          "img": ""
+        }
+      ],
+      "imgGrid_1": [
+        {
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/3.jpg",
+          "moreImg": "+4"
+        }
+      ],
+      "imgGrid_2": [
+        {
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/4.jpg"
+        },
+        {
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/5.jpg"
+        }
+      ],
+      "showDetails": "المرافق والخدمات",
+      "showDetails_2": "الغرف",
+      "servicesCardTitle": [
+        {
+          "icon": "./images/icons/Bell.png",
+          "text": "الخدمات"
+        }
+      ],
+      "servicesCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "إمكانية الحجز المسبق"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مكتب استقبال 24 متعدد اللغات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "موقف وخدمة السيارات"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "واي فاي مجاني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خدمة الغرف"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خدمة تنظيف يومية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "إفطار مجاني"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مطاعم رئيسي ومتعددة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مقهى"
+        }
+      ],
+      "atmospheresCardTitle": [
+        {
+          "icon": "./images/icons/iMac.png",
+          "text": "الراحة في الغرف"
+        }
+      ],
+      "atmospheresCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "شاشة تلفزيون"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "تكييف وتدفئة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مطبخ جاهز"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ميني بار"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خزنة آمنة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "جاكوزي"
+        }
+      ],
+      "equipmentCardTitle": [
+        {
+          "icon": "./images/icons/dumbbells.png",
+          "text": "الراحة والاستحمام"
+        }
+      ],
+      "equipmentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مسبح خارجي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مسبح داخلي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "مسبح أطفال"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "نادي رياضي (جيم)"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "ساونا"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "جاكوزي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "سبا ومراكز عافية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "شرفة خاصة"
+        }
+      ],
+      "paymentCardTitle": [
+        {
+          "icon": "./images/icons/Group01.png",
+          "text": "العائلات والأنشطة"
+        }
+      ],
+      "paymentCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "غرف عائلية"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "منطقة ألعاب الأطفال"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حديقة أو تراس"
+        }
+      ],
+      "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "limitsCardTitle": [
+        {
+          "icon": "./images/icons/Star01.png",
+          "text": "تفاصيل مميزة"
+        }
+      ],
+      "limitsCardDetails": [
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "شرفة وإطلالة على البحر"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "شرفة مطلة على المدينة"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "تدفئة تحت الأرض"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "حيوانات أليفة مسموح بها"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خدمة الغسيل والكي"
+        },
+        {
+          "icon": "./images/icons/Done_duotone.png",
+          "text": "خدمة نقل إلى المطار"
+        }
+      ]
     }
   ]
 }

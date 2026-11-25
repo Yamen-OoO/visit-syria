@@ -16,6 +16,8 @@ const featureContainer = document.querySelector(".modal-card-icons");
 const imgSwiper = document.querySelector(".modal-images-swiper");
 const images_1 = document.querySelector(".modal-img-grid");
 const images_2 = document.querySelector(".image-grid");
+const detailsBtn = document.querySelector(".modal-cardDetails-button")
+const detailsBtn_2 = document.querySelector(".modal-cardDetails-button-2")
 const servicesCard = document.querySelector(".modal-card-1");
 const atmospheresCard = document.querySelector(".modal-card-2");
 const equipmentCard = document.querySelector(".modal-card-3");
@@ -24,6 +26,8 @@ const card_5_icon_1 = document.querySelector(".card-5-icon-1")
 const card_5_text_1 = document.querySelector(".card-5-text-1")
 const limitsCard = document.querySelector(".modal-card-6")
 const buttons = document.querySelectorAll(".open-modal-button");
+
+
 
 let lang = "en";
 
@@ -57,12 +61,27 @@ fetch(jsonFile)
       ...hotelArray,
     ];
 
-    buttons.forEach((btn, index) => {
+    buttons.forEach((btn) => {
       btn.addEventListener("click", () => {
-        const data = allArrays[index];
-        imgSwiper.innerHTML = "";
+        title.textContent ="" ;
+        type_1.textContent = "";
+        type_2.textContent = "";
+        type_3.textContent = "";
+        desc.textContent = "";
+        star_1.src = "";
+        star_2.src = "";
+        star_3.src = "";
+        star_4.src = "";
+        star_5.src = "";
+        myLocation.textContent = "";
+        workTime.textContent = "";
+        open_close.textContent = "";
+        phone.textContent = "";
+         imgSwiper.innerHTML = "";
         images_1.innerHTML = "";
-        images_2.innerHTML = "";
+images_2.querySelectorAll(":scope > img").forEach((img) => img.remove());
+        detailsBtn.textContent = ""
+        detailsBtn_2.textContent = ""
         featureContainer.innerHTML = "";
         servicesCard.innerHTML = "";
         atmospheresCard.innerHTML = "";
@@ -70,6 +89,17 @@ fetch(jsonFile)
         paymentCard.innerHTML = "";
         card_5_text_1.textContent = ""
         limitsCard.innerHTML = "";
+        const placeId = btn.dataset.placeId;
+
+    const data = allArrays.find(
+      (place) => place.id === placeId
+    );
+
+    if (!data) {
+      console.error(`Place not found: ${placeId}`);
+      return;
+    }
+       
         title.textContent = data.name;
         type_1.textContent = data.type_1;
         type_2.textContent = data.type_2;
@@ -95,22 +125,26 @@ fetch(jsonFile)
                         </div>`;
         });
 
-        data.imgGrid_1.forEach((image) => {
+        data.imgGrid_1.forEach((image1) => {
           images_1.innerHTML += `<img
-                          src="${image.img}"
+                          src="${image1.img}"
                           alt=""
                         />
-
                         <div class="modal-swiper-span">
-                          <span>${image.moreImg}</span>
+                          <span>${image1.moreImg}</span>
                         </div>`;
         });
-        data.imgGrid_2.forEach((image) => {
-          images_2.innerHTML += `<img
-                          src="${image.img}"
-                          alt=""
-                        />`;
+        data.imgGrid_2.forEach((image2) => {
+          const img = document.createElement("img");
+
+  img.src = image2.img;
+  img.alt = "";
+
+  images_2.appendChild(img); 
         });
+
+        detailsBtn.textContent = data.showDetails
+        detailsBtn_2.textContent = data.showDetails_2
 
         data.features.forEach((feature) => {
           featureContainer.innerHTML += `<div class="icon">
@@ -145,18 +179,23 @@ fetch(jsonFile)
                         </div>`;
         });
 
+
         data.equipmentCardTitle.forEach((equipmentTitle) => {
           equipmentCard.innerHTML += `<div class="d-flex align-items-center gap-2 mb-2">
                             <img src="${equipmentTitle.icon}" alt="" />
                             <h5 class="ar-h5 primary-7 mb-0">${equipmentTitle.text}</h5>
                           </div>`;
         });
+      
+
         data.equipmentCardDetails.forEach((equipment) => {
           equipmentCard.innerHTML += `<div class="d-flex gap-2 me-2">
                           <img src="${equipment.icon}" alt="" />
                           <p class="ar-pargraph m-0">${equipment.text}</p>
                         </div>`;
         });
+      
+
 
         data.paymentCardTitle.forEach((paymentTitle) => {
           paymentCard.innerHTML += `<div class="d-flex align-items-center gap-2 mb-2">

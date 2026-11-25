@@ -1,20 +1,21 @@
 {
     "resturantsArray": [
         {
-            "name": "La Capital Damascus",
+            "id": "cali",
+            "name": "Cali",
             "type_1": "Eastern",
             "type_2": "Western",
             "type_3": "Grills",
-            "desc": "Discover Syria's landmarks and entertainment destinations, including distinguished restaurants and cafes, quickly and with all the details through our tourism guide.",
+            "desc": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you.",
             "star_1": "./images/icons/Star.png",
             "star_2": "./images/icons/Star.png",
             "star_3": "./images/icons/Star.png",
             "star_4": "./images/icons/Star.png",
             "star_5": "./images/icons/Star.png",
-            "location": "Damascus - Al Hamra Street - Opposite the Umayyad Mosque",
+            "location": "Damascus - Al-Hamra Street - Opposite the Umayyad Mosque",
             "workTime": "Working hours: 8 AM - 12 AM",
-            "open_close": "Open Now",
-            "phone": "Phone: 0999999999",
+            "open_close": "Open now",
+            "phone": "Contact number: 0999999999",
             "features": [
                 {
                     "icon": "./images/icons/group_add.png",
@@ -39,7 +40,7 @@
             ],
             "swiperImages": [
                 {
-                    "img": ""
+                    "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
                 },
                 {
                     "img": ""
@@ -56,21 +57,20 @@
             ],
             "imgGrid_1": [
                 {
-                    "img": "",
+                    "img": "./images/governorates/Damascus/Restaurants/cali/2.jpg",
                     "moreImg": "+4"
                 }
             ],
             "imgGrid_2": [
                 {
-                    "img": ""
+                    "img": "./images/governorates/Damascus/Restaurants/cali/3.jpg"
                 },
                 {
-                    "img": ""
-                },
-                {
-                    "img": ""
+                    "img": "./images/governorates/Damascus/Restaurants/cali/4.jpg"
                 }
             ],
+            "showDetails": "Details",
+            "showDetails_2": "Menu",
             "servicesCardTitle": [
                 {
                     "icon": "./images/icons/Bell.png",
@@ -88,7 +88,7 @@
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Advance reservations"
+                    "text": "Advance booking available"
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
@@ -96,7 +96,7 @@
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Screens"
+                    "text": "Display screens"
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
@@ -108,11 +108,11 @@
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Event and party services"
+                    "text": "Events and party services"
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Group reservations"
+                    "text": "Group booking"
                 }
             ],
             "atmospheresCardTitle": [
@@ -154,7 +154,7 @@
             "equipmentCardTitle": [
                 {
                     "icon": "./images/icons/Setting_line.png",
-                    "text": "Comfort and Facilities"
+                    "text": "Comfort and Amenities"
                 }
             ],
             "equipmentCardDetails": [
@@ -217,20 +217,271 @@
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Hookah is not available"
+                    "text": "No hookah"
                 },
                 {
                     "icon": "./images/icons/Done_duotone.png",
-                    "text": "Entry is restricted to people over 18"
+                    "text": "Only for ages 18 and above"
                 }
             ]
-        },
+        }
+    ],
+    "cafeArray": [
         {
-            "name": "Cali",
-            "desc": "This is Cali",
+  "id": "r-house",
+  "name": "R house",
+  "type_1": "Eastern",
+  "type_2": "Western",
+  "type_3": "Grills",
+  "desc": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you.",
+  "star_1": "./images/icons/Star.png",
+  "star_2": "./images/icons/Star.png",
+  "star_3": "./images/icons/Star.png",
+  "star_4": "./images/icons/Star.png",
+  "star_5": "./images/icons/Star.png",
+  "location": "Damascus - Al-Hamra Street - Opposite the Umayyad Mosque",
+  "workTime": "Working hours: 8 AM - 12 AM",
+  "open_close": "Open now",
+  "phone": "Contact number: 0999999999",
+  "features": [
+    {
+      "icon": "./images/icons/group_add.png",
+      "text": "Family-friendly"
+    },
+    {
+      "icon": "./images/icons/Wi-Fi.png",
+      "text": "Wi-Fi"
+    },
+    {
+      "icon": "./images/icons/package_car.png",
+      "text": "Takeaway"
+    },
+    {
+      "icon": "./images/icons/Tree.png",
+      "text": "Nature"
+    },
+    {
+      "icon": "./images/icons/parking.png",
+      "text": "Parking"
+    }
+  ],
+  "swiperImages": [
+    {
+      "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    }
+  ],
+  "imgGrid_1": [
+    {
+      "img": "./images/governorates/Damascus/Café/rhouse/3.jpg",
+      "moreImg": "+4"
+    }
+  ],
+  "imgGrid_2": [
+    {
+      "img": "./images/governorates/Damascus/Café/rhouse/4.jpg"
+    },
+    {
+      "img": "./images/governorates/Damascus/Café/rhouse/5.jpg"
+    }
+  ],
+  "showDetails": "Details",
+  "showDetails_2": "Menu",
+  "servicesCardTitle": [
+    {
+      "icon": "./images/icons/Bell.png",
+      "text": "Services"
+    }
+  ],
+  "servicesCardDetails": [
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Free Wi-Fi"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Indoor seating"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Outdoor seating"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Air conditioning"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Heating"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Parking"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Takeaway service"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Advance booking"
+    }
+  ],
+  "atmospheresCardTitle": [
+    {
+      "icon": "./images/icons/Home.png",
+      "text": "Atmosphere"
+    }
+  ],
+  "atmospheresCardDetails": [
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Quiet and suitable for work"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Suitable for studying"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Suitable for meetings"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Family-friendly"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Suitable for friends"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Romantic"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Modern"
+    }
+  ],
+  "equipmentCardTitle": [
+    {
+      "icon": "./images/icons/cocktail.png",
+      "text": "Food and drinks"
+    }
+  ],
+  "equipmentCardDetails": [
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Coffee"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Tea and herbal drinks"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Fresh juices"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Smoothies"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Milkshakes"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Hot and cold drinks"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Desserts"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Sandwiches and light meals"
+    }
+  ],
+  "paymentCardTitle": [
+    {
+      "icon": "./images/icons/Money.png",
+      "text": "Payment methods"
+    }
+  ],
+  "paymentCardDetails": [
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Cash"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Electronic payment"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Credit cards"
+    }
+  ],
+  "moreInformationCardDetailsText": "Working hours: 8 AM - 10 PM",
+  "limitsCardTitle": [
+    {
+      "icon": "./images/icons/Info.png",
+      "text": "Restrictions and limitations"
+    }
+  ],
+  "limitsCardDetails": [
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Alcoholic beverages are not available"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Hookah is not available"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Adults over 18 only"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Advance booking required"
+    },
+    {
+      "icon": "./images/icons/Done_duotone.png",
+      "text": "Photography is prohibited"
+    }
+        ]
+    }
+],
+    "nightClubArray": [
+        {
+            "id": "viva-rooftop",
+            "name": "viva rooftop",
+            "type_1": "Eastern",
+            "type_2": "Western",
+            "type_3": "Grills",
+            "desc": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you.",
             "star_1": "./images/icons/Star.png",
             "star_2": "./images/icons/Star.png",
             "star_3": "./images/icons/Star.png",
+            "star_4": "./images/icons/Star.png",
+            "star_5": "./images/icons/Star.png",
+            "location": "Damascus - Al-Hamra Street - Opposite the Umayyad Mosque",
+            "workTime": "Working hours: 8 AM - 12 AM",
+            "open_close": "Open now",
+            "phone": "Contact number: 0999999999",
             "features": [
                 {
                     "icon": "./images/icons/group_add.png",
@@ -239,11 +490,23 @@
                 {
                     "icon": "./images/icons/Wi-Fi.png",
                     "text": "Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/package_car.png",
+                    "text": "Takeaway"
+                },
+                {
+                    "icon": "./images/icons/Tree.png",
+                    "text": "Nature"
+                },
+                {
+                    "icon": "./images/icons/parking.png",
+                    "text": "Parking"
                 }
             ],
             "swiperImages": [
                 {
-                    "img": "./images/governorates/Damascus/Restaurants/cali/1.jpg"
+                    "img": ""
                 },
                 {
                     "img": ""
@@ -266,95 +529,609 @@
             ],
             "imgGrid_2": [
                 {
-                    "img": "./images/governorates/Damascus/Restaurants/cali/2.jpg"
+                    "img": ""
                 },
                 {
-                    "img": "./images/governorates/Damascus/Restaurants/cali/3.jpg"
+                    "img": ""
+                }
+            ],
+            "showDetails": "Details",
+            "servicesCardTitle": [
+                {
+                    "icon": "./images/icons/Bell.png",
+                    "text": "Services"
+                }
+            ],
+            "servicesCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Free Wi-Fi"
                 },
                 {
-                    "img": "./images/governorates/Damascus/Restaurants/cali/4.jpg"
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Indoor seating and outdoor seating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "View"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "VIP areas"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Professional sound and lighting system"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Dance and seating areas"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Parking"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Air conditioning and heating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Group reservations"
+                }
+            ],
+            "atmospheresCardTitle": [
+                {
+                    "icon": "./images/icons/Home.png",
+                    "text": "Atmosphere and experience"
+                }
+            ],
+            "atmospheresCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Lively and energetic"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Elegant and luxurious"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Modern"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for groups and friends"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for parties"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for holidays and special occasions"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Smoking areas"
+                }
+            ],
+            "equipmentCardTitle": [
+                {
+                    "icon": "./images/icons/Chield_check.png",
+                    "text": "Rules and restrictions"
+                }
+            ],
+            "equipmentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Entry for people aged 18 and over"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Formal or specified dress code"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Photography is prohibited"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Advance reservation required"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Children are not allowed"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Pets are not allowed"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Restrictions on the number of people"
+                }
+            ],
+            "paymentCardTitle": [
+                {
+                    "icon": "./images/icons/Money.png",
+                    "text": "Payment methods"
+                }
+            ],
+            "paymentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Cash"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Electronic payment"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Credit cards"
+                }
+            ],
+            "moreInformationCardDetailsText": "Working hours: 8 AM - 10 PM",
+            "limitsCardTitle": [
+                {
+                    "icon": "./images/icons/Info.png",
+                    "text": "Important notes"
+                }
+            ],
+            "limitsCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Advance booking is recommended to guarantee entry"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Proof of age may be required"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Restrictions on the number of people may apply"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Please comply with the formal or specified dress code"
                 }
             ]
-        },
-        {
-            "name": "Restaurant 3",
-            "description": "This is restaurant 3"
-        },
-        {
-            "name": "Restaurant 4",
-            "description": "This is restaurant 4"
-        }
-    ],
-    "cafeArray": [
-        {
-            "name": "Al-Qishla",
-            "description": "This is Al-Qishla"
-        },
-        {
-            "name": "R House",
-            "description": "This is R House"
-        },
-        {
-            "name": "Cafe 3",
-            "description": "This is cafe 3"
-        },
-        {
-            "name": "Cafe 4",
-            "description": "This is cafe 4"
-        }
-    ],
-    "nightClubArray": [
-        {
-            "name": "Viva Rooftop",
-            "description": "This is Viva Rooftop"
-        },
-        {
-            "name": "La Joia Rooftop",
-            "description": "This is La Joia Rooftop"
-        },
-        {
-            "name": "Nightclub 3",
-            "description": "This is nightclub 3"
-        },
-        {
-            "name": "Nightclub 4",
-            "description": "This is nightclub 4"
         }
     ],
     "landmarkArray": [
         {
+            "id": "al-hijaz",
             "name": "Al-Hejaz Railway Station",
-            "description": "This is Al-Hejaz Railway Station"
-        },
-        {
-            "name": "Straight Street, Bab Sharqi",
-            "description": "This is Straight Street, Bab Sharqi"
-        },
-        {
-            "name": "Landmark 3",
-            "description": "This is landmark 3"
-        },
-        {
-            "name": "Landmark 4",
-            "description": "This is landmark 4"
+            "type_1": "Eastern",
+            "type_2": "Western",
+            "type_3": "Grills",
+            "desc": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you.",
+            "star_1": "./images/icons/Star.png",
+            "star_2": "./images/icons/Star.png",
+            "star_3": "./images/icons/Star.png",
+            "star_4": "./images/icons/Star.png",
+            "star_5": "./images/icons/Star.png",
+            "location": "Damascus - Al-Hamra Street - Opposite the Umayyad Mosque",
+            "workTime": "Working hours: 8 AM - 12 AM",
+            "open_close": "Open now",
+            "phone": "Contact number: 0999999999",
+            "features": [
+                {
+                    "icon": "./images/icons/group_add.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Wi-Fi.png",
+                    "text": "Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/package_car.png",
+                    "text": "Takeaway"
+                },
+                {
+                    "icon": "./images/icons/Tree.png",
+                    "text": "Nature"
+                },
+                {
+                    "icon": "./images/icons/parking.png",
+                    "text": "Parking"
+                }
+            ],
+            "swiperImages": [
+                {
+                    "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                }
+            ],
+            "imgGrid_1": [
+                {
+                    "img": "./images/governorates/Damascus/landmarks/hijaz/1.jpg",
+                    "moreImg": "+4"
+                }
+            ],
+            "imgGrid_2": [
+                {
+                    "img": "./images/governorates/Damascus/landmarks/hijaz/4.jpg"
+                },
+                {
+                    "img": "./images/governorates/Damascus/landmarks/hijaz/2.jpg"
+                }
+            ],
+            "showDetails": "Details",
+            "servicesCardTitle": [
+                {
+                    "icon": "./images/icons/File_dock.png",
+                    "text": "Brief overview"
+                }
+            ],
+            "servicesCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you."
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Landmark type: Historical"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Historical period: 3rd century BC"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Estimated duration: 2–4 hours"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Best time to visit: March to May / September to November"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Admission fee: $3–$10"
+                }
+            ],
+            "atmospheresCardTitle": [
+                {
+                    "icon": "./images/icons/bell.png",
+                    "text": "Important guidelines and notes"
+                }
+            ],
+            "atmospheresCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Wear comfortable clothes suitable for walking"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "It is recommended to bring water and a sun umbrella"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "It is best to visit in the morning or before sunset to avoid the heat"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Some areas are not accessible to people with limited mobility"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Best time to visit: March to May / September to November"
+                }
+            ],
+            "equipmentCardTitle": [],
+            "equipmentCardDetails": [],
+            "paymentCardTitle": [
+                {
+                    "icon": "./images/icons/Setting_line.png",
+                    "text": "Facilities and services"
+                }
+            ],
+            "paymentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Nearby restaurants"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Cafés"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Restrooms"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Parking"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Rest areas"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Surrounding garden"
+                }
+            ],
+            "moreInformationCardDetailsText": "Working hours: 8 AM - 10 PM",
+            "limitsCardTitle": [
+                {
+                    "icon": "./images/icons/Group01.png",
+                    "text": "Visitors"
+                }
+            ],
+            "limitsCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for friends"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for children"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Suitable for people with disabilities (some areas)"
+                }
+            ]
         }
     ],
     "hotelArray": [
         {
+            "id": "golden-mazzeh",
             "name": "Golden Mazzeh",
-            "description": "This is Golden Mazzeh"
-        },
-        {
-            "name": "Al-Nawfara",
-            "description": "This is Al-Nawfara"
-        },
-        {
-            "name": "Hotel 3",
-            "description": "This is hotel 3"
-        },
-        {
-            "name": "Hotel 4",
-            "description": "This is hotel 4"
+            "type_1": "Eastern",
+            "type_2": "Western",
+            "type_3": "Grills",
+            "desc": "Discover Syria's landmarks and entertainment venues, including distinctive restaurants and cafés, quickly and with all the details, through the tourist guide we will provide you.",
+            "star_1": "./images/icons/Star.png",
+            "star_2": "./images/icons/Star.png",
+            "star_3": "./images/icons/Star.png",
+            "star_4": "./images/icons/Star.png",
+            "star_5": "./images/icons/Star.png",
+            "location": "Damascus - Al-Hamra Street - Opposite the Umayyad Mosque",
+            "workTime": "Working hours: 8 AM - 12 AM",
+            "open_close": "Open now",
+            "phone": "Contact number: 0999999999",
+            "features": [
+                {
+                    "icon": "./images/icons/group_add.png",
+                    "text": "Family-friendly"
+                },
+                {
+                    "icon": "./images/icons/Wi-Fi.png",
+                    "text": "Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/package_car.png",
+                    "text": "Takeaway"
+                },
+                {
+                    "icon": "./images/icons/Tree.png",
+                    "text": "Nature"
+                },
+                {
+                    "icon": "./images/icons/parking.png",
+                    "text": "Parking"
+                }
+            ],
+            "swiperImages": [
+                {
+                    "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                },
+                {
+                    "img": ""
+                }
+            ],
+            "imgGrid_1": [
+                {
+                    "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/3.jpg",
+                    "moreImg": "+4"
+                }
+            ],
+            "imgGrid_2": [
+                {
+                    "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/4.jpg"
+                },
+                {
+                    "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/5.jpg"
+                }
+            ],
+            "showDetails": "Facilities and services",
+            "showDetails_2": "Rooms",
+            "servicesCardTitle": [
+                {
+                    "icon": "./images/icons/Bell.png",
+                    "text": "Services"
+                }
+            ],
+            "servicesCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Advance booking available"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "24-hour multilingual reception desk"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Parking and car service"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Free Wi-Fi"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Room service"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Daily housekeeping"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Free breakfast"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Main and multiple restaurants"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Café"
+                }
+            ],
+            "atmospheresCardTitle": [
+                {
+                    "icon": "./images/icons/iMac.png",
+                    "text": "Room comfort"
+                }
+            ],
+            "atmospheresCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "TV screen"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Air conditioning and heating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Fully equipped kitchen"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Mini-bar"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Safety deposit box"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Jacuzzi"
+                }
+            ],
+            "equipmentCardTitle": [
+                {
+                    "icon": "./images/icons/dumbbells.png",
+                    "text": "Leisure and bathing"
+                }
+            ],
+            "equipmentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Outdoor swimming pool"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Indoor swimming pool"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Children's swimming pool"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Fitness center (gym)"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Sauna"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Jacuzzi"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Spa and wellness centers"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Private balcony"
+                }
+            ],
+            "paymentCardTitle": [
+                {
+                    "icon": "./images/icons/Group01.png",
+                    "text": "Families and activities"
+                }
+            ],
+            "paymentCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Family rooms"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Children's play area"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Garden or terrace"
+                }
+            ],
+            "moreInformationCardDetailsText": "Working hours: 8 AM - 10 PM",
+            "limitsCardTitle": [
+                {
+                    "icon": "./images/icons/Star01.png",
+                    "text": "Special features"
+                }
+            ],
+            "limitsCardDetails": [
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Balcony with sea view"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Balcony overlooking the city"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Underfloor heating"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Pets allowed"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Laundry and ironing service"
+                },
+                {
+                    "icon": "./images/icons/Done_duotone.png",
+                    "text": "Airport transfer service"
+                }
+            ]
         }
     ]
 }

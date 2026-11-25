@@ -103,6 +103,10 @@ html, body {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.card-title {
+  white-space: nowrap;
+}
+
 .card-logo {
     max-width: 132px;
     width: 100%;
