@@ -25,11 +25,19 @@ const paymentCard = document.querySelector(".modal-card-4");
 const card_5_icon_1 = document.querySelector(".card-5-icon-1")
 const card_5_text_1 = document.querySelector(".card-5-text-1")
 const limitsCard = document.querySelector(".modal-card-6")
+const locationMap = document.querySelector(".modal-map");
+const locationBtn = document.querySelector(".modal-show-location-button");
+const socialMedia = document.querySelector(".modal-social-media")
+const noFoodMenu = document.querySelector(".modal-no-food-menu")
 const buttons = document.querySelectorAll(".open-modal-button");
 
+let lang = "ar";
 
-
-let lang = "en";
+document.documentElement.setAttribute("lang", lang);
+document.documentElement.setAttribute(
+  "dir",
+  lang === "en" ? "ltr" : "rtl"
+);
 
 let resturantsArray = [];
 let cafeArray = [];
@@ -89,7 +97,13 @@ images_2.querySelectorAll(":scope > img").forEach((img) => img.remove());
         paymentCard.innerHTML = "";
         card_5_text_1.textContent = ""
         limitsCard.innerHTML = "";
+        locationMap.textContent = ""
+        locationBtn.textContent = ""
+        socialMedia.textContent = ""
+        noFoodMenu.textContent = ""
         const placeId = btn.dataset.placeId;
+
+        
 
     const data = allArrays.find(
       (place) => place.id === placeId
@@ -145,6 +159,7 @@ images_2.querySelectorAll(":scope > img").forEach((img) => img.remove());
 
         detailsBtn.textContent = data.showDetails
         detailsBtn_2.textContent = data.showDetails_2
+        noFoodMenu.textContent = data.no_food_menu
 
         data.features.forEach((feature) => {
           featureContainer.innerHTML += `<div class="icon">
@@ -211,6 +226,9 @@ images_2.querySelectorAll(":scope > img").forEach((img) => img.remove());
         });
 
         card_5_text_1.textContent = data.moreInformationCardDetailsText
+        locationMap.textContent = data.location_map;
+locationBtn.textContent = data.locationButton;
+        socialMedia.textContent = data.social_media
 
         data.limitsCardTitle.forEach((limitTitle) => {
           limitsCard.innerHTML += `<div class="d-flex align-items-center gap-2 mb-2">
@@ -260,6 +278,7 @@ const swiper = new Swiper(".slide-content", {
 const modalSwiper = new Swiper(".modal-images", {
   slidesPerView: 1,
   nested: true,
+  loop: true,
   navigation: {
     nextEl: ".modal-next",
     prevEl: ".modal-prev",

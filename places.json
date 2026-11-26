@@ -43,16 +43,16 @@
           "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Restaurants/cali/5.jpg"
         }
       ],
       "imgGrid_1": [
@@ -71,6 +71,7 @@
       ],
       "showDetails": "التفاصيل",
       "showDetails_2": "قائمة الطعام",
+      "no_food_menu": "لم يتم إضافة قائمة بعد",
       "servicesCardTitle": [
         {
           "icon": "./images/icons/Bell.png",
@@ -204,6 +205,9 @@
         }
       ],
       "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "locationButton": "انقر",
+      "location_map": "الموقع على الخريطة",
+      "social_media": "وسائل التواصل الاجتماعي",
       "limitsCardTitle": [
         {
           "icon": "./images/icons/Info.png",
@@ -270,16 +274,16 @@
           "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Café/rhouse/2.jpg"
         }
       ],
       "imgGrid_1": [
@@ -298,6 +302,7 @@
       ],
       "showDetails": "التفاصيل",
       "showDetails_2": "قائمة الطعام",
+      "no_food_menu": "لم يتم إضافة قائمة بعد",
       "servicesCardTitle": [
         {
           "icon": "./images/icons/Bell.png",
@@ -435,6 +440,9 @@
         }
       ],
       "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "location_map": "الموقع على الخريطة",
+      "locationButton": "انقر",
+      "social_media": "وسائل التواصل الاجتماعي",
       "limitsCardTitle": [
         {
           "icon": "./images/icons/Info.png",
@@ -506,19 +514,19 @@
       ],
       "swiperImages": [
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/NightClub/nightClub_02.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/NightClub/nightClub_02.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/NightClub/nightClub_02.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/NightClub/nightClub_02.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/NightClub/nightClub_02.jpg"
         }
       ],
       "imgGrid_1": [
@@ -673,6 +681,9 @@
         }
       ],
       "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "location_map": "الموقع على الخريطة",
+      "locationButton": "انقر",
+      "social_media": "وسائل التواصل الاجتماعي",
       "limitsCardTitle": [
         {
           "icon": "./images/icons/Info.png",
@@ -743,16 +754,16 @@
           "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/landmarks/hijaz/3.jpg"
         }
       ],
       "imgGrid_1": [
@@ -865,6 +876,9 @@
         }
       ],
       "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "location_map": "الموقع على الخريطة",
+      "locationButton": "انقر",
+      "social_media": "وسائل التواصل الاجتماعي",
       "limitsCardTitle": [
         {
           "icon": "./images/icons/Group01.png",
@@ -935,16 +949,16 @@
           "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
         },
         {
-          "img": ""
+          "img": "./images/governorates/Damascus/Hotel/goldenmazzeh/2.jpg"
         }
       ],
       "imgGrid_1": [
@@ -1100,6 +1114,9 @@
         }
       ],
       "moreInformationCardDetailsText": "ساعات العمل: 8 صباحاً - 10 مساءً",
+      "location_map": "الموقع على الخريطة",
+      "locationButton": "انقر",
+      "social_media": "وسائل التواصل الاجتماعي",
       "limitsCardTitle": [
         {
           "icon": "./images/icons/Star01.png",

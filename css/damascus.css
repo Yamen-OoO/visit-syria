@@ -7,7 +7,6 @@
 html, body {
   max-width: 100%;
   font-family: var(--main-ar-font-family);
-  direction: rtl;
   overflow-x: hidden;
 }
 
@@ -153,6 +152,7 @@ html, body {
 
 .open-now {
   margin-right: 12px;
+  margin-left: 12px;
   color: #4bc636;
 }
 
@@ -475,7 +475,6 @@ html, body {
   width: 100%;
   margin-top: 10px;
   align-items: stretch;
-  direction: rtl;
 }
 
 .image-grid > img,
@@ -790,4 +789,18 @@ html:has(body.modal-open), body.modal-open {
   .guide-title {
     transform: translateY(-20px);
   }
+}
+
+.modal-show-location-button {
+  background: none;
+  border: none;
+  color: #4FB4E9;
+}
+
+.modal-location, .modal-workTime, .modal-phone {
+  margin: 0;
+}
+
+hr {
+  margin: 8px;
 }
